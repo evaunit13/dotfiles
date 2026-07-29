@@ -67,7 +67,7 @@
          id="g1807"
          transform="matrix(5.8494657,0,0,5.8494657,-542.03485,-483.75153)">
         <circle
-           style="opacity:1;fill:#9c9a97;fill-opacity:1;stroke:none;stroke-width:0.714375;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="opacity:1;fill:#d79921;fill-opacity:1;stroke:none;stroke-width:0.714375;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            id="circle4454"
            cx="96.510498"
            cy="92.81501"
@@ -121,11 +121,11 @@
          transform="translate(26.458229,-7.3510842e-5)">
         <path
            id="path3540-6-7"
-           style="fill:#9c9a97;fill-opacity:1;stroke:none;stroke-width:0.716437;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.25"
+           style="fill:#d79921;fill-opacity:1;stroke:none;stroke-width:0.716437;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke;opacity:0.25"
            d="m 99.163954,84.959097 v 5.128652 l -5.306942,-2e-6 V 86.17077 c 0,-0.67133 0.540345,-1.211681 1.211675,-1.211681 z"
            sodipodi:nodetypes="cccssc" />
         <circle
-           style="opacity:1;fill:#9c9a97;fill-opacity:1;stroke:none;stroke-width:0.714375;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="opacity:1;fill:#d79921;fill-opacity:1;stroke:none;stroke-width:0.714375;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            id="circle4450"
            cx="96.510498"
            cy="87.523346"
@@ -164,7 +164,7 @@
          transform="matrix(1.0007205,0,0,1.0007205,26.386848,-0.05555197)">
         <path
            id="path3540-6-7-5"
-           style="opacity:1;fill:#9c9a97;fill-opacity:1;stroke:none;stroke-width:4.19078;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
+           style="opacity:1;fill:#d79921;fill-opacity:1;stroke:none;stroke-width:4.19078;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
            d="m 127.99888,44.155864 v 29.999933 l -31.04284,-1.2e-5 V 51.243517 c 0,-3.92693 3.16074,-7.0877 7.08767,-7.0877 z"
            sodipodi:nodetypes="cccssc"
            transform="matrix(0.17107981,0,0,0.17107981,77.265963,72.102068)" />

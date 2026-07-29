@@ -76,7 +76,7 @@
          transform="matrix(0.60511005,0,0,0.60511005,-47.664779,63.258001)"
          style="opacity:1">
         <circle
-           style="fill:#8a8a8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="fill:#d97e8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            id="path1469"
            cx="115.95376"
            cy="-6.7613125"
@@ -84,13 +84,13 @@
         <g
            id="g3598"
            transform="matrix(9.8376826,0,0,9.8376826,-1145.1878,-815.59173)"
-           style="fill:none;stroke:#5c5c5c;stroke-linecap:round;stroke-opacity:1">
+           style="fill:none;stroke:#a85b65;stroke-linecap:round;stroke-opacity:1">
           <path
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#5c5c5c;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#a85b65;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
              d="m 127.55373,82.858834 1.28251,-1.282512"
              id="path3592" />
           <path
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#5c5c5c;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#a85b65;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
              d="m 127.55373,81.576321 1.28251,1.282514"
              id="path3594" />
         </g>
@@ -121,7 +121,7 @@
            d="m 90.000004,-83.973465 v 50.308857 l 52.057766,-2.6e-5 V -72.08772 c 0,-6.58533 -5.30044,-11.885823 -11.88577,-11.885823 z"
            sodipodi:nodetypes="cccssc" />
         <circle
-           style="fill:#8a8a8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="fill:#d97e8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            id="circle1589"
            cx="116.02882"
            cy="-58.819088"
@@ -129,19 +129,19 @@
         <g
            id="g3964"
            transform="matrix(9.8376826,0,0,9.8376826,-1145.1878,-867.64947)"
-           style="fill:none;stroke:#5c5c5c;stroke-linecap:round;stroke-opacity:1">
+           style="fill:none;stroke:#a85b65;stroke-linecap:round;stroke-opacity:1">
           <path
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#5c5c5c;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#a85b65;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
              d="m 127.55373,82.858834 1.28251,-1.282512"
              id="path3960" />
           <path
-             style="opacity:1;fill:none;fill-opacity:1;stroke:#5c5c5c;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#a85b65;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
              d="m 127.55373,81.576321 1.28251,1.282514"
              id="path3962" />
         </g>
         <path
            id="path3337"
-           style="opacity:1;fill:#8a8a8a;fill-opacity:0.25;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="opacity:1;fill:#d97e8a;fill-opacity:0.25;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            d="m 90.000004,-83.973465 v 50.308857 l 52.057766,-2.6e-5 V -72.08772 c 0,-6.58533 -5.30044,-11.885823 -11.88577,-11.885823 z"
            sodipodi:nodetypes="cccssc" />
       </g>
@@ -155,7 +155,7 @@
        inkscape:label="g1932">
       <path
          id="path3671"
-         style="fill:#8a8a8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+         style="fill:#d97e8a;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
          d="m 90.000004,-136.0312 v 50.308856 l 52.057766,-2.6e-5 v -38.42309 c 0,-6.58533 -5.30044,-11.88585 -11.88577,-11.88585 z"
          sodipodi:nodetypes="cccssc" />
       <g
@@ -167,7 +167,7 @@
            d="m 127.55373,82.858834 1.28251,-1.282512"
            id="path3954" />
         <path
-           style="opacity:1;fill:none;fill-opacity:1;stroke:#5c5c5c;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#a85b65;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
            d="m 127.55373,81.576321 1.28251,1.282514"
            id="path3956" />
       </g>
