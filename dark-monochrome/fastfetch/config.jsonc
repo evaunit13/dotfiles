@@ -35,12 +35,14 @@
     {
       "type": "os",
       "key": "OS",
-      "keyColor": "38;2;125;174;163"
+      "keyColor": "38;2;125;174;163",
+      "format": "{2} {12}"
     },
     {
       "type": "host",
       "key": "Host",
-      "keyColor": "38;2;125;174;163"
+      "keyColor": "38;2;125;174;163",
+      "format": "{2}"
     },
     {
       "type": "kernel",
@@ -70,12 +72,14 @@
     {
       "type": "cpu",
       "key": "CPU",
-      "keyColor": "38;2;125;174;163"
+      "keyColor": "38;2;125;174;163",
+      "format": "{1} ({4})"
     },
     {
       "type": "gpu",
       "key": "GPU",
-      "keyColor": "38;2;125;174;163"
+      "keyColor": "38;2;125;174;163",
+      "format": "Intel {2}"
     },
     {
       "type": "memory",
