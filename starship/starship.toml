@@ -25,7 +25,7 @@ $character"""
 
 right_format = """$python$battery"""
 
-palette = "catppuccin_mocha"
+palette = "mono"
 
 [palettes.catppuccin_mocha]
 color_fg0     = "#cdd6f4"
@@ -39,6 +39,19 @@ color_yellow  = "#f9e2af"
 color_purple  = "#cba4f7"
 color_red     = "#f38ba8"
 color_fg      = "#cdd6f4"
+
+[palettes.mono]
+color_fg0     = "#d4d2cf"
+color_bg1     = "#1e1d1c"
+color_bg3     = "#302f2d"
+color_blue    = "#a0a0a0"
+color_aqua    = "#9a9a9a"
+color_green   = "#909090"
+color_orange  = "#b0b0b0"
+color_yellow  = "#c5c5c5"
+color_purple  = "#b5b5b5"
+color_red     = "#8a8a8a"
+color_fg      = "#d4d2cf"
 
 # ── OS & User ─────────────────────────────────────────────────────────────────
 

@@ -22,13 +22,13 @@
     {
       "type": "custom",
       "format": "╭──────────────────────────────────────────────╮",
-      "outputColor": "38;2;203;166;247"
+      "outputColor": "38;2;181;181;181"
     },
     {
       "type": "title",
       "fqdn": true,
       "key": "│    User",
-      "keyColor": "38;2;203;166;247",
+      "keyColor": "38;2;181;181;181",
       "color": {
         "user": "white",
         "at": "white",
@@ -38,87 +38,87 @@
     {
       "type": "os",
       "key": "│      OS",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "host",
       "key": "│    Host",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "kernel",
       "key": "│  Kernel",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "uptime",
       "key": "│  Uptime",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "packages",
       "key": "│Packages",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "shell",
       "key": "│   Shell",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "terminal",
       "key": "│Terminal",
-      "keyColor": "38;2;203;166;247"
+      "keyColor": "38;2;181;181;181"
     },
     {
       "type": "custom",
       "format": "╰──────────────────────────────────────────────╯",
-      "outputColor": "38;2;203;166;247"
+      "outputColor": "38;2;181;181;181"
     },
     {
       "type": "custom",
       "format": "╭──────────────────────────────────────────────╮",
-      "outputColor": "38;2;137;180;250"
+      "outputColor": "38;2;160;160;160"
     },
     {
       "type": "cpu",
       "key": "│     CPU",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "gpu",
       "key": "│     GPU",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "display",
       "key": "│   Video",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "sound",
       "key": "│   Sound",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "memory",
       "key": "│  Memory",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "swap",
       "key": "│    Swap",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "disk",
       "key": "│    Disk",
-      "keyColor": "38;2;137;180;250"
+      "keyColor": "38;2;160;160;160"
     },
     {
       "type": "custom",
       "format": "╰──────────────────────────────────────────────╯",
-      "outputColor": "38;2;137;180;250"
+      "outputColor": "38;2;160;160;160"
     },
     {
       "type": "colors",
