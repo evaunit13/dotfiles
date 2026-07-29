@@ -23,6 +23,7 @@
   },
   "modules": [
     "break",
+    "break",
     {
       "type": "title",
       "fqdn": true,
