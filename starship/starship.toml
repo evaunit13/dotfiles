@@ -1,0 +1,162 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+format = """
+[](color_orange)\
+$os\
+$username\
+[](bg:color_yellow fg:color_orange)\
+$directory\
+[](fg:color_yellow bg:color_aqua)\
+$git_branch\
+$git_status\
+[](fg:color_aqua bg:color_blue)\
+$c\
+$rust\
+$golang\
+$nodejs\
+[](fg:color_blue bg:color_bg3)\
+$time\
+$cmd_duration\
+$jobs\
+$sudo\
+[ ](fg:color_bg3)\
+$line_break\
+$character"""
+
+right_format = """$python$battery"""
+
+palette = "catppuccin_mocha"
+
+[palettes.catppuccin_mocha]
+color_fg0     = "#cdd6f4"
+color_bg1     = "#1e1e2e"
+color_bg3     = "#313244"
+color_blue    = "#89b4fa"
+color_aqua    = "#94e2d5"
+color_green   = "#a6e3a1"
+color_orange  = "#fab387"
+color_yellow  = "#f9e2af"
+color_purple  = "#cba4f7"
+color_red     = "#f38ba8"
+color_fg      = "#cdd6f4"
+
+# ── OS & User ─────────────────────────────────────────────────────────────────
+
+[os]
+disabled = false
+style    = "bg:color_orange fg:color_bg1"
+
+[os.symbols]
+Linux  = "󰌽 "
+Fedora = " "
+
+[username]
+show_always = true
+style_user  = "bg:color_orange fg:color_bg1"
+style_root  = "bg:color_orange fg:color_bg1"
+format      = "[ $user ]($style)"
+
+# ── Directory ─────────────────────────────────────────────────────────────────
+
+[directory]
+style             = "fg:color_bg1 bg:color_yellow"
+format            = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+
+[git_branch]
+symbol = ""
+style  = "bg:color_aqua fg:color_bg1"
+format = "[ $symbol $branch ]($style)"
+
+[git_status]
+style  = "bg:color_aqua fg:color_bg1"
+format = "[$all_status$ahead_behind ]($style)"
+
+# ── Languages ─────────────────────────────────────────────────────────────────
+
+[c]
+symbol = " "
+style  = "bg:color_blue fg:color_bg1"
+format = "[ $symbol ($version) ]($style)"
+
+[nodejs]
+symbol = ""
+style  = "bg:color_blue fg:color_bg1"
+format = "[ $symbol ($version) ]($style)"
+
+[golang]
+symbol = ""
+style  = "bg:color_blue fg:color_bg1"
+format = "[ $symbol ($version) ]($style)"
+
+[rust]
+symbol = ""
+style  = "bg:color_blue fg:color_bg1"
+format = "[ $symbol ($version) ]($style)"
+
+# Only shows when a venv is active — displays version + venv name
+[python]
+symbol            = ""
+style             = "fg:color_yellow"
+format            = "[ $symbol $version ($virtualenv) ]($style)"
+detect_files      = []
+detect_extensions = []
+detect_folders    = []
+
+# ── Time & Date ───────────────────────────────────────────────────────────────
+
+[time]
+disabled    = false
+time_format = "%d %b  %H:%M"
+style       = "bg:color_bg3 fg:color_fg0"
+format      = "[  $time ]($style)"
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+
+[cmd_duration]
+min_time = 2000
+style    = "bg:color_bg3 fg:color_yellow"
+format   = "[ 󱦟 $duration ]($style)"
+
+[jobs]
+symbol    = "󰒓 "
+style     = "fg:color_purple"
+format    = "[$symbol$number]($style) "
+threshold = 1
+
+[sudo]
+disabled = false
+symbol   = "󰯄 "
+style    = "fg:color_red"
+format   = "[$symbol]($style)"
+
+# ── Battery (right prompt) ────────────────────────────────────────────────────
+
+[battery]
+full_symbol        = "󰁹 "
+charging_symbol    = "󰂄 "
+discharging_symbol = "󰂃 "
+unknown_symbol     = "󰂑 "
+empty_symbol       = "󰂎 "
+format             = "[$symbol$percentage]($style) "
+
+[[battery.display]]
+threshold = 20
+style     = "bold fg:color_red"
+
+[[battery.display]]
+threshold = 50
+style     = "fg:color_yellow"
+
+[[battery.display]]
+threshold = 100
+style     = "fg:color_green"
+
+# ── Prompt character ──────────────────────────────────────────────────────────
+
+[character]
+success_symbol = "[❯](bold fg:color_green)"
+error_symbol   = "[❯](bold fg:color_red)"

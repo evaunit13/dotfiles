@@ -1,0 +1,22 @@
+theme        = Catppuccin Mocha
+font-family  = JetBrains Mono
+font-size    = 11
+window-width  = 87
+window-height = 22
+window-padding-x = 10
+window-padding-y = 5
+cursor-style       = bar
+cursor-style-blink = true
+shell-integration  = detect
+scrollback-limit   = 10000
+copy-on-select     = clipboard
+mouse-hide-while-typing = true
+gtk-single-instance = true
+quit-after-last-window-closed = false
+confirm-close-surface = false
+scrollbar = never
+mouse-scroll-multiplier = discrete:1,precision:1
+
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/ripple_cursor.glsl
+custom-shader-animation = always
