@@ -1,0 +1,53 @@
+===============================================================================
+ DARK MONOCHROME (E-READER STYLE) COLOR PALETTE
+===============================================================================
+
+Description:
+  A minimalist, dark matte grayscale theme designed for high legibility and low
+  eye strain (e-reader aesthetic). Uses deep charcoal backgrounds, warm light
+  gray text, and subtle neutral grays for UI accents. Zero bright color hues.
+
+-------------------------------------------------------------------------------
+COLOR CODES & ROLES
+-------------------------------------------------------------------------------
+
+#1e1d1c  (RGB: 30, 29, 28)    - Base / Main Background
+                                Application background, editor canvas, fastfetch main box.
+
+#181716  (RGB: 24, 23, 22)    - Mantle / Surface Background
+                                Headerbars, titlebars, tab bars, secondary panel surfaces.
+
+#121110  (RGB: 18, 17, 16)    - Crust / Deep Background
+                                Sidebar backgrounds, popup containers, dark dropdowns.
+
+#302f2d  (RGB: 48, 47, 45)    - Surface0 / Element Background
+                                Button backgrounds, card backgrounds, hover states, meter backgrounds.
+
+#434240  (RGB: 67, 66, 64)    - Surface1 / Selection Background
+                                Active selection backgrounds, pressed button states.
+
+#6e6c69  (RGB: 110, 108, 105) - Overlay / Subtle Borders
+                                Window borders, inactive text, subtle dividers, inactive tab text.
+
+#9c9a97  (RGB: 156, 154, 151) - Muted Text / Inactive Foreground
+                                Disabled buttons, muted captions, secondary metadata.
+
+#d4d2cf  (RGB: 212, 210, 207) - Primary Text / Foreground
+                                Main UI text, terminal text, active tab titles.
+
+#faf8f5  (RGB: 250, 248, 245) - Pure Paper Foreground / Highlight
+                                Terminal palette 15, cursor text, brightest text accents.
+
+-------------------------------------------------------------------------------
+ANSI / ACCENT ROLES (GRAYSCALE MAPPING)
+-------------------------------------------------------------------------------
+
+#8a8a8a  (RGB: 138, 138, 138) - Red / Error / Negative Accent (Dark Gray)
+#909090  (RGB: 144, 144, 144) - Green / Success / Positive Accent (Medium Gray)
+#c5c5c5  (RGB: 197, 197, 197) - Yellow / Warning Accent (Light Warm Gray)
+#a0a0a0  (RGB: 160, 160, 160) - Blue / Primary Link / Focus Accent (Neutral Gray)
+#b5b5b5  (RGB: 181, 181, 181) - Mauve / Special Feature Accent (Light Neutral Gray)
+#9a9a9a  (RGB: 154, 154, 154) - Teal / Secondary Accent (Mid Gray)
+#b0b0b0  (RGB: 176, 176, 176) - Orange / Peach Accent (Soft Light Gray)
+#c0c0c0  (RGB: 192, 192, 192) - Pink Accent (Soft Neutral Gray)
+#959595  (RGB: 149, 149, 149) - Sapphire / Sky Accent (Steel Gray)

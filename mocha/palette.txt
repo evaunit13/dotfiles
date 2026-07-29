@@ -1,0 +1,54 @@
+===============================================================================
+ CATPPUCCIN MOCHA (BLUE ACCENT) COLOR PALETTE
+===============================================================================
+
+Description:
+  A soothing, dark theme with vibrant pastel accents from the official Catppuccin
+  Mocha color scheme palette, featuring a deep navy-slate base and a signature
+  blue highlight color.
+
+-------------------------------------------------------------------------------
+COLOR CODES & ROLES
+-------------------------------------------------------------------------------
+
+#1e1e2e  (RGB: 30, 30, 46)    - Base / Main Background
+                                Application canvas, editor background, terminal background.
+
+#181825  (RGB: 24, 24, 37)    - Mantle / Surface Background
+                                Headerbars, titlebars, top bars, window frames.
+
+#11111b  (RGB: 17, 17, 27)    - Crust / Deep Background
+                                Sidebar panels, popups, bottom status bars.
+
+#313244  (RGB: 49, 50, 68)    - Surface0 / Card Background
+                                Active buttons, input fields, widget containers, hover states.
+
+#45475a  (RGB: 69, 71, 90)    - Surface1 / Selection Background
+                                Text selection, active list items, process selection.
+
+#6c7086  (RGB: 108, 112, 134) - Overlay0 / Subtle Borders
+                                Border lines, divider rules, inactive tab labels.
+
+#a6adc8  (RGB: 166, 173, 200) - Subtext0 / Inactive Text
+                                Secondary labels, disabled control text, inactive titlebars.
+
+#cdd6f4  (RGB: 205, 214, 244) - Text / Main Foreground
+                                Primary text, icon fills, default readable labels.
+
+-------------------------------------------------------------------------------
+ACCENT PALETTE (PASTEL COLORS)
+-------------------------------------------------------------------------------
+
+#89b4fa  (RGB: 137, 180, 250) - Blue (Primary Accent & Focus Highlight)
+#cba6f7  (RGB: 203, 166, 247) - Mauve / Purple Accent
+#f38ba8  (RGB: 243, 139, 168) - Red / Error / Danger Accent
+#a6e3a1  (RGB: 166, 227, 161) - Green / Success / Positive Accent
+#f9e2af  (RGB: 249, 226, 175) - Yellow / Warning Accent
+#fab387  (RGB: 250, 179, 135) - Peach / Orange Accent
+#94e2d5  (RGB: 148, 226, 213) - Teal Accent
+#89dceb  (RGB: 137, 220, 235) - Sky Accent
+#74c7ec  (RGB: 116, 199, 236) - Sapphire Accent
+#b4befe  (RGB: 180, 190, 254) - Lavender Accent
+#f5c2e7  (RGB: 245, 194, 231) - Pink Accent
+#eba0ac  (RGB: 235, 160, 172) - Maroon Accent
+#f5e0dc  (RGB: 245, 224, 220) - Rosewater Accent
