@@ -12,7 +12,7 @@
   },
   "display": {
     "brightColor": true,
-    "separator": " ➜ ",
+    "separator": " \u279c ",
     "color": {
       "keys": "38;2;125;174;163",
       "title": "38;2;212;210;207"
@@ -22,7 +22,6 @@
     }
   },
   "modules": [
-    "break",
     "break",
     {
       "type": "title",
