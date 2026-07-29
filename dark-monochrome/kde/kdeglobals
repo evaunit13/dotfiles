@@ -132,7 +132,7 @@ smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [Icons]
-Theme=Papirus-Dark
+Theme=Papirus-Dark-Monochrome
 
 [KDE]
 LookAndFeelPackage=Catppuccin-Mocha-Blue
