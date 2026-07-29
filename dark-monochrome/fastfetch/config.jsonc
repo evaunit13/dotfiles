@@ -4,125 +4,87 @@
     "type": "auto",
     "source": "$HOME/.config/fastfetch/fed.txt",
     "padding": {
-      "top": 1,
-      "right": 2,
+      "top": 0,
+      "right": 3,
       "bottom": 0,
-      "left": 2
+      "left": 1
     }
   },
-  "general": {},
   "display": {
-    "brightColor": "true",
-    "separator": " ",
+    "brightColor": true,
+    "separator": " ➜ ",
+    "color": {
+      "keys": "38;2;125;174;163",
+      "title": "38;2;212;210;207"
+    },
     "key": {
       "width": 10
     }
   },
   "modules": [
     {
-      "type": "custom",
-      "format": "╭──────────────────────────────────────────────╮",
-      "outputColor": "38;2;181;181;181"
-    },
-    {
       "type": "title",
       "fqdn": true,
-      "key": "│    User",
-      "keyColor": "38;2;181;181;181",
       "color": {
-        "user": "white",
-        "at": "white",
-        "host": "white"
+        "user": "38;2;212;210;207",
+        "at": "38;2;110;108;105",
+        "host": "38;2;212;210;207"
       }
     },
+    "separator",
     {
       "type": "os",
-      "key": "│      OS",
-      "keyColor": "38;2;181;181;181"
+      "key": "OS",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "host",
-      "key": "│    Host",
-      "keyColor": "38;2;181;181;181"
+      "key": "Host",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "kernel",
-      "key": "│  Kernel",
-      "keyColor": "38;2;181;181;181"
+      "key": "Kernel",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "uptime",
-      "key": "│  Uptime",
-      "keyColor": "38;2;181;181;181"
+      "key": "Uptime",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "packages",
-      "key": "│Packages",
-      "keyColor": "38;2;181;181;181"
+      "key": "Packages",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "shell",
-      "key": "│   Shell",
-      "keyColor": "38;2;181;181;181"
+      "key": "Shell",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "terminal",
-      "key": "│Terminal",
-      "keyColor": "38;2;181;181;181"
-    },
-    {
-      "type": "custom",
-      "format": "╰──────────────────────────────────────────────╯",
-      "outputColor": "38;2;181;181;181"
-    },
-    {
-      "type": "custom",
-      "format": "╭──────────────────────────────────────────────╮",
-      "outputColor": "38;2;160;160;160"
+      "key": "Terminal",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "cpu",
-      "key": "│     CPU",
-      "keyColor": "38;2;160;160;160"
+      "key": "CPU",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "gpu",
-      "key": "│     GPU",
-      "keyColor": "38;2;160;160;160"
-    },
-    {
-      "type": "display",
-      "key": "│   Video",
-      "keyColor": "38;2;160;160;160"
-    },
-    {
-      "type": "sound",
-      "key": "│   Sound",
-      "keyColor": "38;2;160;160;160"
+      "key": "GPU",
+      "keyColor": "38;2;125;174;163"
     },
     {
       "type": "memory",
-      "key": "│  Memory",
-      "keyColor": "38;2;160;160;160"
+      "key": "Memory",
+      "keyColor": "38;2;125;174;163"
     },
-    {
-      "type": "swap",
-      "key": "│    Swap",
-      "keyColor": "38;2;160;160;160"
-    },
-    {
-      "type": "disk",
-      "key": "│    Disk",
-      "keyColor": "38;2;160;160;160"
-    },
-    {
-      "type": "custom",
-      "format": "╰──────────────────────────────────────────────╯",
-      "outputColor": "38;2;160;160;160"
-    },
+    "break",
     {
       "type": "colors",
-      "paddingLeft": 6,
       "symbol": "circle"
     }
   ]
