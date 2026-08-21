@@ -11,7 +11,7 @@ Description:
 COLOR CODES & ROLES
 -------------------------------------------------------------------------------
 
-#1e1d1c  (RGB: 30, 29, 28)    - Base / Main Background
+#141312  (RGB: 20, 19, 18)    - Base / Main Background (Dark Matte Charcoal)
                                 Application background, editor canvas, fastfetch main box.
 
 #181716  (RGB: 24, 23, 22)    - Mantle / Surface Background

@@ -19,3 +19,11 @@ set -x JAVA_HOME /usr/lib/jvm/java-21-openjdk
 
 # Added by Antigravity CLI installer
 set -gx PATH "/home/near/.local/bin" $PATH
+
+# Autostart KDE Plasma Wayland on TTY1 login
+if status is-login
+    if test -z "$DISPLAY" -a -z "$WAYLAND_DISPLAY" -a "$XDG_VTNR" = 1
+        exec startplasma-wayland
+    end
+end
+

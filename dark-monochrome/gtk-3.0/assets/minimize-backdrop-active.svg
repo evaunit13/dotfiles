@@ -12,7 +12,7 @@ font-family="JetBrains Mono" font-size="10" font-weight="400" font-style="normal
 >
 </g>
 
-<g fill="#ff5252" fill-opacity="1" stroke="none" transform="matrix(0.923773,0,0,1.44862,-83.1396,-57.4392)"
+<g fill="#8a8a8a" fill-opacity="1" stroke="none" transform="matrix(0.923773,0,0,1.44862,-83.1396,-57.4392)"
 font-family="JetBrains Mono" font-size="10" font-weight="400" font-style="normal" 
 >
 <rect x="90" y="44.1667" width="45" height="30"/>
@@ -138,13 +138,13 @@ font-family="JetBrains Mono" font-size="10" font-weight="400" font-style="normal
 <rect x="-104.376" y="89.0113" width="0.264583" height="0.529167"/>
 </g>
 
-<g fill="#f8bd96" fill-opacity="1" stroke="none" transform="matrix(9.41481,0,0,9.76317,-1132.71,-777.878)"
+<g fill="#fe8019" fill-opacity="1" stroke="none" transform="matrix(9.41481,0,0,9.76317,-1132.71,-777.878)"
 font-family="JetBrains Mono" font-size="10" font-weight="400" font-style="normal" 
 >
 <rect x="120.315" y="79.6747" width="5.30694" height="5.11389"/>
 </g>
 
-<g fill="none" stroke="#bf540d" stroke-opacity="1" stroke-width="0.264583" stroke-linecap="round" stroke-linejoin="round" transform="matrix(9.41481,0,0,9.76317,-1132.71,-777.878)"
+<g fill="none" stroke="#b85d10" stroke-opacity="1" stroke-width="0.264583" stroke-linecap="round" stroke-linejoin="round" transform="matrix(9.41481,0,0,9.76317,-1132.71,-777.878)"
 font-family="JetBrains Mono" font-size="10" font-weight="400" font-style="normal" 
 >
 <path vector-effect="none" fill-rule="nonzero" d="M122.307,82.2317 L123.63,82.2317 "/>

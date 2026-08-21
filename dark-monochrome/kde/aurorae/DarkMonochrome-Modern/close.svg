@@ -66,7 +66,7 @@
            style="fill:#000000;fill-opacity:0.00757614;stroke-width:1" />
         <path
            id="path3540"
-           style="opacity:1;fill:#1e1d1c;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="opacity:1;fill:#141312;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            d="m 13.69807,-83.973465 v 50.308857 l 52.057766,-2.6e-5 V -72.08772 c 0,-6.58533 -5.30044,-11.885823 -11.88577,-11.885823 z"
            sodipodi:nodetypes="cccssc"
            transform="matrix(0.86442434,0,0,0.59631518,-11.84094,94.241379)" />
@@ -117,7 +117,7 @@
          inkscape:label="g1939">
         <path
            id="rect1709"
-           style="opacity:1;fill:#1e1d1c;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+           style="opacity:1;fill:#141312;fill-opacity:1;stroke:none;stroke-width:7.02779;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
            d="m 90.000004,-83.973465 v 50.308857 l 52.057766,-2.6e-5 V -72.08772 c 0,-6.58533 -5.30044,-11.885823 -11.88577,-11.885823 z"
            sodipodi:nodetypes="cccssc" />
         <circle
@@ -215,7 +215,7 @@
        transform="translate(135)" />
     <path
        id="path1075"
-       style="fill:#1e1d1c;fill-opacity:0.5;stroke:none;stroke-width:4.19078;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
+       style="fill:#141312;fill-opacity:0.5;stroke:none;stroke-width:4.19078;stroke-linecap:square;stroke-linejoin:round;paint-order:markers fill stroke"
        d="m 231.97858,44.16673 v 29.999935 l 31.04284,-1.5e-5 V 51.254378 c 0,-3.926933 -3.16074,-7.087713 -7.08767,-7.087713 z"
        sodipodi:nodetypes="cccssc" />
   </g>

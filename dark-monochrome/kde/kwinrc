@@ -1,3 +1,6 @@
+[Compositing]
+AnimationSpeed=3
+
 [Desktops]
 Id_1=06dec26e-e58f-4e19-9cd1-5d749734cc58
 Id_2=c802804f-1729-4b97-8d09-2355778b422a
@@ -9,6 +12,9 @@ Rows=1
 
 [Effect-kwin4_effect_geometry_change]
 Duration=490
+
+[Effect-overview]
+BorderActivate=9
 
 [Effect-scale]
 Duration=145
@@ -23,9 +29,11 @@ crt-overlay-managerEnabled=true
 diminactiveEnabled=true
 fullscreenEnabled=false
 krohnkiteEnabled=false
+kwin4_effect_fadeEnabled=false
 kwin4_effect_geometry_changeEnabled=true
 magiclampEnabled=true
 maximizeEnabled=false
+slideEnabled=true
 squash2Enabled=false
 squashEnabled=false
 wobblywindowsEnabled=true

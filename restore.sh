@@ -55,9 +55,11 @@ if [[ -d "${TARGET_DIR}/fastfetch" ]]; then
     echo "--> Restoring Fastfetch..."
     mkdir -p ~/.config/fastfetch
     backup_file "${TARGET_DIR}/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc"
-    if [[ -f "${TARGET_DIR}/fastfetch/fed.txt" ]]; then
-        cp "${TARGET_DIR}/fastfetch/fed.txt" "$HOME/.config/fastfetch/fed.txt"
-    fi
+    for logofile in "${TARGET_DIR}/fastfetch/"*.txt; do
+        if [[ -f "$logofile" ]]; then
+            cp "$logofile" "$HOME/.config/fastfetch/"
+        fi
+    done
 fi
 
 # 4. btop

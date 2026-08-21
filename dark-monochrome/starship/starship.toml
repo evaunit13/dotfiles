@@ -16,14 +16,13 @@ $golang\
 $nodejs\
 [](fg:color_blue bg:color_bg3)\
 $time\
-$cmd_duration\
 $jobs\
 $sudo\
 [ ](fg:color_bg3)\
 $line_break\
 $character"""
 
-right_format = """$python$battery"""
+right_format = """$python$cmd_duration$battery"""
 
 palette = "mono"
 
@@ -41,8 +40,8 @@ color_red     = "#f38ba8"
 color_fg      = "#cdd6f4"
 
 [palettes.mono]
-color_fg0     = "#1e1d1c"
-color_bg1     = "#1e1d1c"
+color_fg0     = "#141312"
+color_bg1     = "#141312"
 color_bg3     = "#434240"
 color_blue    = "#77969a"
 color_aqua    = "#7ba39d"
@@ -124,15 +123,15 @@ detect_folders    = []
 [time]
 disabled    = false
 time_format = "%d %b  %H:%M"
-style       = "bg:color_bg3 fg:color_fg0"
+style       = "bg:color_bg3 fg:color_fg"
 format      = "[  $time ]($style)"
 
 # ── Misc ──────────────────────────────────────────────────────────────────────
 
 [cmd_duration]
 min_time = 2000
-style    = "bg:color_bg3 fg:color_yellow"
-format   = "[ 󱦟 $duration ]($style)"
+style    = "fg:color_yellow"
+format   = "[󱦟 $duration]($style) "
 
 [jobs]
 symbol    = "󰒓 "

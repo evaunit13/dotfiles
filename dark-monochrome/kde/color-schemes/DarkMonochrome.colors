@@ -4,7 +4,7 @@ Name=Dark Monochrome
 
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=30,29,28
+Color=20,19,18
 ColorAmount=0.3
 ColorEffect=2
 ContrastAmount=0.1
@@ -15,7 +15,7 @@ IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=30,29,28
+Color=20,19,18
 ColorAmount=0.5
 ColorEffect=3
 ContrastAmount=0
@@ -39,8 +39,8 @@ ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [Colors:Complementary]
-BackgroundAlternate=24,23,22
-BackgroundNormal=30,29,28
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
@@ -53,8 +53,8 @@ ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [Colors:Header]
-BackgroundAlternate=24,23,22
-BackgroundNormal=30,29,28
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
@@ -72,17 +72,17 @@ BackgroundNormal=160,160,160
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
-ForegroundInactive=30,29,28
+ForegroundInactive=0,0,0
 ForegroundLink=160,160,160
 ForegroundNegative=138,138,138
 ForegroundNeutral=197,197,197
-ForegroundNormal=24,23,22
+ForegroundNormal=8,8,8
 ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [Colors:Tooltip]
 BackgroundAlternate=27,25,24
-BackgroundNormal=30,29,28
+BackgroundNormal=20,19,18
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
@@ -95,8 +95,8 @@ ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [Colors:View]
-BackgroundAlternate=30,29,28
-BackgroundNormal=30,29,28
+BackgroundAlternate=20,19,18
+BackgroundNormal=20,19,18
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
@@ -109,8 +109,8 @@ ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [Colors:Window]
-BackgroundAlternate=24,23,22
-BackgroundNormal=30,29,28
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
 DecorationFocus=160,160,160
 DecorationHover=48,47,45
 ForegroundActive=176,176,176
@@ -123,9 +123,9 @@ ForegroundPositive=144,144,144
 ForegroundVisited=181,181,181
 
 [WM]
-activeBackground=30,29,28
+activeBackground=20,19,18
 activeBlend=212,210,207
 activeForeground=212,210,207
-inactiveBackground=24,23,22
+inactiveBackground=14,13,12
 inactiveBlend=165,163,160
 inactiveForeground=165,163,160
