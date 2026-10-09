@@ -1,0 +1,6 @@
+[Daemon]
+LockGrace=300
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/near/Pictures/Wallpapers/a_plane_in_the_sky_mono_nearest.png
+PreviewImage=file:///home/near/Pictures/Wallpapers/a_plane_in_the_sky_mono_nearest.png

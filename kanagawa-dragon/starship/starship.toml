@@ -1,0 +1,176 @@
+"$schema" = "https://starship.rs/config-schema.json"
+
+scan_timeout = 1000
+command_timeout = 1000
+follow_symlinks = false
+
+format = """
+$os\
+$username\
+$directory\
+$git_branch\
+$git_status\
+$git_state\
+$jobs\
+$status\
+$character"""
+
+right_format = """$cmd_duration$python$time"""
+
+palette = "kanagawa_dragon"
+
+[palettes.kanagawa_dragon]
+color_fg0     = "#141312"
+color_bg1     = "#141312"
+color_bg3     = "#7a8382"
+color_blue    = "#8ba4b0"
+color_aqua    = "#8ea4a2"
+color_green   = "#8a9a7b"
+color_orange  = "#e69875"
+color_yellow  = "#c4b28a"
+color_purple  = "#a292a3"
+color_red     = "#c4746e"
+color_fg      = "#c5c9c5"
+
+[palettes.kanagawa]
+color_fg0     = "#141312"
+color_bg1     = "#141312"
+color_bg3     = "#727169"
+color_blue    = "#7e9cd8"
+color_aqua    = "#7aa89f"
+color_green   = "#98bb6c"
+color_orange  = "#ffa066"
+color_yellow  = "#e6c384"
+color_purple  = "#957fb8"
+color_red     = "#c34043"
+color_fg      = "#dcd7ba"
+
+[palettes.catppuccin_mocha]
+color_fg0     = "#cdd6f4"
+color_bg1     = "#1e1e2e"
+color_bg3     = "#313244"
+color_blue    = "#89b4fa"
+color_aqua    = "#94e2d5"
+color_green   = "#a6e3a1"
+color_orange  = "#fab387"
+color_yellow  = "#f9e2af"
+color_purple  = "#cba4f7"
+color_red     = "#f38ba8"
+color_fg      = "#cdd6f4"
+
+[palettes.mono]
+color_fg0     = "#141312"
+color_bg1     = "#141312"
+color_bg3     = "#434240"
+color_blue    = "#77969a"
+color_aqua    = "#7ba39d"
+color_green   = "#86a685"
+color_orange  = "#d59871"
+color_yellow  = "#cbb77d"
+color_purple  = "#a78fa8"
+color_red     = "#ca7b86"
+color_fg      = "#d4d2cf"
+
+# ── OS & User ─────────────────────────────────────────────────────────────────
+
+[os]
+disabled = true
+
+[username]
+show_always = true
+style_user  = "bold fg:color_orange"
+style_root  = "bold fg:color_red"
+format      = "[$user]($style):"
+
+# ── Directory ─────────────────────────────────────────────────────────────────
+
+[directory]
+style             = "bold fg:color_yellow"
+format            = "[$path]($style) "
+truncation_length = 3
+truncation_symbol = "…/"
+truncate_to_repo  = true
+
+# ── Git ───────────────────────────────────────────────────────────────────────
+
+[git_branch]
+symbol = " "
+style  = "bold fg:color_aqua"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style  = "bold fg:color_red"
+format = "([$all_status$ahead_behind]($style) )"
+
+[git_state]
+style  = "bold fg:color_red"
+format = "([$state($progress_current/$progress_total)]($style) )"
+
+# ── Python ────────────────────────────────────────────────────────────────────
+
+[python]
+symbol            = "󰌠 "
+style             = "fg:color_yellow"
+format            = "[($symbol$virtualenv )]($style)"
+detect_files      = []
+detect_extensions = []
+detect_folders    = []
+
+# ── Time & Date ───────────────────────────────────────────────────────────────
+
+[time]
+disabled    = false
+time_format = "%H:%M"
+style       = "fg:color_bg3"
+format      = "[$time]($style)"
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+
+[cmd_duration]
+min_time = 2000
+style    = "fg:color_yellow"
+format   = "[󱦟 $duration]($style) "
+
+[jobs]
+symbol    = "󰒓 "
+style     = "fg:color_purple"
+format    = "[$symbol$number]($style) "
+threshold = 1
+
+[sudo]
+disabled = true
+
+[status]
+disabled = false
+symbol   = "✘ "
+style    = "bold fg:color_red"
+format   = "[$symbol$status]($style) "
+
+# ── Battery (right prompt) ────────────────────────────────────────────────────
+
+[battery]
+disabled           = true
+full_symbol        = "󰁹 "
+charging_symbol    = "󰂄 "
+discharging_symbol = "󰂃 "
+unknown_symbol     = "󰂑 "
+empty_symbol       = "󰂎 "
+format             = "[$symbol$percentage]($style) "
+
+[[battery.display]]
+threshold = 20
+style     = "bold fg:color_red"
+
+[[battery.display]]
+threshold = 50
+style     = "fg:color_yellow"
+
+[[battery.display]]
+threshold = 100
+style     = "fg:color_green"
+
+# ── Prompt character ──────────────────────────────────────────────────────────
+
+[character]
+success_symbol = "[>](bold fg:color_green) "
+error_symbol   = "[>](bold fg:color_red) "

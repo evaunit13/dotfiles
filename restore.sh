@@ -2,15 +2,17 @@
 set -euo pipefail
 
 # Dotfiles Restore Script
-# Usage: ./restore.sh [dark-monochrome|mocha]
+# Usage: ./restore.sh [dark-monochrome|mocha|kanagawa-dragon]
 
 THEME="${1:-dark-monochrome}"
+[[ "$THEME" == "kanagawa" ]] && THEME="kanagawa-dragon"
+
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TARGET_DIR="${DOTFILES_DIR}/${THEME}"
 
 if [[ ! -d "$TARGET_DIR" ]]; then
     echo "Error: Theme directory '$TARGET_DIR' does not exist."
-    echo "Available themes: dark-monochrome, mocha"
+    echo "Available themes: dark-monochrome, mocha, kanagawa-dragon"
     exit 1
 fi
 
@@ -44,18 +46,25 @@ if [[ -d "${TARGET_DIR}/ghostty" ]]; then
     fi
 fi
 
-# 2. Starship
+# 2. Kitty
+if [[ -d "${TARGET_DIR}/kitty" ]]; then
+    echo "--> Restoring Kitty..."
+    mkdir -p ~/.config/kitty
+    backup_file "${TARGET_DIR}/kitty/kitty.conf" "$HOME/.config/kitty/kitty.conf"
+fi
+
+# 3. Starship
 if [[ -f "${TARGET_DIR}/starship/starship.toml" ]]; then
     echo "--> Restoring Starship..."
     backup_file "${TARGET_DIR}/starship/starship.toml" "$HOME/.config/starship.toml"
 fi
 
-# 3. Fastfetch
+# 4. Fastfetch
 if [[ -d "${TARGET_DIR}/fastfetch" ]]; then
     echo "--> Restoring Fastfetch..."
     mkdir -p ~/.config/fastfetch
     backup_file "${TARGET_DIR}/fastfetch/config.jsonc" "$HOME/.config/fastfetch/config.jsonc"
-    for logofile in "${TARGET_DIR}/fastfetch/"*.txt; do
+    for logofile in "${TARGET_DIR}/fastfetch/"*.txt "${TARGET_DIR}/fastfetch/"*.png; do
         if [[ -f "$logofile" ]]; then
             cp "$logofile" "$HOME/.config/fastfetch/"
         fi
@@ -134,7 +143,7 @@ fi
 
 # Apply KDE live changes
 if command -v plasma-apply-colorscheme >/dev/null 2>&1; then
-    if [[ "$THEME" == "dark-monochrome" ]]; then
+    if [[ "$THEME" == "dark-monochrome" || "$THEME" == "kanagawa-dragon" ]]; then
         plasma-apply-colorscheme DarkMonochrome 2>/dev/null || true
     elif [[ "$THEME" == "mocha" ]]; then
         plasma-apply-colorscheme CatppuccinMochaBlue 2>/dev/null || true
@@ -147,5 +156,5 @@ fi
 
 echo "========================================="
 echo " Done restoring ${THEME} rice!"
-echo " Restart Zen Browser & Ghostty to see full changes."
+echo " Restart Zen Browser, Ghostty & Kitty to see full changes."
 echo "========================================="

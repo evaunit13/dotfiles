@@ -1,0 +1,174 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=20,19,18
+ColorAmount=0.3
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+Enable=
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=20,19,18
+ColorAmount=0.5
+ColorEffect=3
+ContrastAmount=0
+ContrastEffect=0
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=87,89,91
+BackgroundNormal=48,47,45
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:Complementary]
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:Header]
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:Selection]
+BackgroundAlternate=78,80,83
+BackgroundNormal=78,80,83
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=255,255,255
+ForegroundLink=76,78,81
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=255,255,255
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:Tooltip]
+BackgroundAlternate=27,25,24
+BackgroundNormal=20,19,18
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:View]
+BackgroundAlternate=20,19,18
+BackgroundNormal=20,19,18
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[Colors:Window]
+BackgroundAlternate=14,13,12
+BackgroundNormal=20,19,18
+DecorationFocus=104,107,111
+DecorationHover=104,107,111
+ForegroundActive=104,107,111
+ForegroundInactive=165,163,160
+ForegroundLink=196,198,202
+ForegroundNegative=138,138,138
+ForegroundNeutral=197,197,197
+ForegroundNormal=212,210,207
+ForegroundPositive=144,144,144
+ForegroundVisited=181,181,181
+
+[General]
+AccentColor=104,107,111
+ColorSchemeHash=e9c208404d5dceeaeb50f55c178c8289b4cebb7f
+LastUsedCustomAccentColor=104,107,111
+TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
+TerminalService=com.mitchellh.ghostty.desktop
+XftAntialias=true
+XftHintStyle=hintslight
+XftSubPixel=none
+fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Papirus-Dark-Monochrome
+
+[KDE]
+LookAndFeelPackage=Catppuccin-Mocha-Blue
+ShowDeleteCommand=true
+contrast=7
+frameContrast=0.2
+widgetStyle=Breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=20,19,18
+activeBlend=212,210,207
+activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeForeground=212,210,207
+inactiveBackground=14,13,12
+inactiveBlend=165,163,160
+inactiveForeground=165,163,160

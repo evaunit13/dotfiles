@@ -1,0 +1,8 @@
+[ElisaFileIndexer]
+RootPath[$e]=$HOME/Music,/run/media/near/disk
+
+[UiSettings]
+ColorScheme=DarkMonochrome
+
+[Views]
+InitialFilesViewPath=/run/media/near/disk

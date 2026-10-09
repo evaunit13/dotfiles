@@ -1,0 +1,63 @@
+# Main background, frame, text
+theme[main_bg]="#141312"
+theme[main_fg]="#c5c9c5"
+theme[title]="#c4b28a"
+theme[hi_fg]="#e69875"
+theme[selected_bg]="#2d4f67"
+theme[selected_fg]="#c5c9c5"
+theme[inactive_fg]="#7a8382"
+theme[graph_text]="#c5c9c5"
+theme[meter_bg]="#282727"
+theme[proc_misc]="#8ea4a2"
+
+# Box borders
+theme[cpu_box]="#8ba4b0"
+theme[mem_box]="#a292a3"
+theme[net_box]="#8a9a7b"
+theme[proc_box]="#e69875"
+theme[div_line]="#7a8382"
+
+# Temperature graph (Green -> Yellow -> Red)
+theme[temp_start]="#8a9a7b"
+theme[temp_mid]="#c4b28a"
+theme[temp_end]="#c4746e"
+
+# CPU graph (Aqua -> Blue -> Purple)
+theme[cpu_start]="#8ea4a2"
+theme[cpu_mid]="#8ba4b0"
+theme[cpu_end]="#a292a3"
+
+# Free memory graph (Green -> Aqua)
+theme[free_start]="#8a9a7b"
+theme[free_mid]="#87a987"
+theme[free_end]="#8ea4a2"
+
+# Cached memory graph (Blue -> Purple)
+theme[cached_start]="#8ba4b0"
+theme[cached_mid]="#7fb4ca"
+theme[cached_end]="#a292a3"
+
+# Available memory graph (Yellow -> Green)
+theme[available_start]="#c4b28a"
+theme[available_mid]="#87a987"
+theme[available_end]="#8a9a7b"
+
+# Used memory graph (Yellow -> Orange -> Red)
+theme[used_start]="#c4b28a"
+theme[used_mid]="#e69875"
+theme[used_end]="#c4746e"
+
+# Download graph (Blue -> Aqua)
+theme[download_start]="#8ba4b0"
+theme[download_mid]="#7fb4ca"
+theme[download_end]="#7aa89f"
+
+# Upload graph (Green -> Yellow)
+theme[upload_start]="#8a9a7b"
+theme[upload_mid]="#87a987"
+theme[upload_end]="#c4b28a"
+
+# Process box & bars (Purple -> Red)
+theme[process_start]="#a292a3"
+theme[process_mid]="#b6927b"
+theme[process_end]="#c4746e"

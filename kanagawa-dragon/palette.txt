@@ -1,0 +1,34 @@
+===============================================================================
+ KANAGAWA DRAGON (ON DEEP CHARCOAL) COLOR PALETTE
+===============================================================================
+
+Description:
+  An earthy, muted Japanese aesthetic adapted from Kanagawa Dragon, paired
+  with a deep matte charcoal background (#141312) for enhanced focus and
+  ultra-low eye strain. Features warm amber, moss green, sumi inks, and terracotta accents.
+
+-------------------------------------------------------------------------------
+CORE BACKGROUND & FOREGROUND
+-------------------------------------------------------------------------------
+
+#141312  (RGB: 20, 19, 18)    - Base / Canvas Background (Deep Matte Charcoal)
+#1f1e1d  (RGB: 31, 30, 29)    - Mantle / Surface Background (Sub-surface)
+#0d0c0c  (RGB: 13, 12, 12)    - Crust / Deep Background (ANSI 0)
+#282727  (RGB: 40, 39, 39)    - Surface0 / Card & Inactive Tab Background
+#2d4f67  (RGB: 45, 79, 103)   - Surface1 / Selection Background (Wave Blue)
+#7a8382  (RGB: 122, 131, 130) - Overlay / Subtle Borders & Dividers (ANSI 8)
+#c5c9c5  (RGB: 197, 201, 197) - Primary Text / Foreground (Dragon White / ANSI 7)
+#dcd7ba  (RGB: 220, 215, 186) - Fuji White / High Foreground (ANSI 15)
+#c8c093  (RGB: 200, 192, 147) - Cursor / Accent Highlight
+
+-------------------------------------------------------------------------------
+ACCENT PALETTE (KANAGAWA DRAGON HUES)
+-------------------------------------------------------------------------------
+
+#c4746e  (RGB: 196, 116, 110) - Dragon Red / Autumn Crimson (ANSI 1)
+#8a9a7b  (RGB: 138, 154, 123) - Dragon Green / Moss Spring (ANSI 2)
+#c4b28a  (RGB: 196, 178, 138) - Dragon Yellow / Bamboo Warm Sand (ANSI 3)
+#8ba4b0  (RGB: 139, 164, 176) - Dragon Blue / Steel Wave (ANSI 4)
+#a292a3  (RGB: 162, 146, 163) - Dragon Purple / Sakura Plum (ANSI 5)
+#8ea4a2  (RGB: 142, 164, 162) - Dragon Aqua / Winter Teal (ANSI 6)
+#e69875  (RGB: 230, 152, 117) - Dragon Orange / Warm Terracotta
