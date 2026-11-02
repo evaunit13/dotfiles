@@ -2,24 +2,24 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "kitty",
-    "source": "/home/ikh/.config/fastfetch/unit01.png",
-    "width": 28,
+    "source": "/home/user/.config/fastfetch/unit01.png",
+    "width": 35,
     "preserveAspectRatio": true,
     "padding": {
-      "top": 0,
-      "right": 3,
-      "bottom": 0,
-      "left": 1
+      "top": 1,
+      "right": 5,
+      "bottom": 2,
+      "left": 3
     }
   },
   "display": {
     "brightColor": true,
     "separator": " \u279c ",
     "color": {
-      "keys": "38;2;196;178;138",
+      "keys": "38;2;138;154;123",
       "title": "38;2;197;201;197",
       "output": "38;2;197;201;197",
-      "separator": "38;2;122;131;130"
+      "separator": "38;2;230;152;117"
     },
     "key": {
       "width": 10
@@ -32,67 +32,65 @@
       "type": "title",
       "fqdn": true,
       "color": {
-        "user": "38;2;230;152;117",
+        "user": "38;2;162;146;163",
         "at": "38;2;122;131;130",
-        "host": "38;2;196;178;138"
+        "host": "38;2;230;152;117"
       }
     },
     "separator",
     {
       "type": "os",
       "key": "OS",
-      "keyColor": "38;2;196;178;138",
+      "keyColor": "38;2;138;154;123",
       "format": "{2} {12}"
     },
     {
       "type": "host",
       "key": "Host",
-      "keyColor": "38;2;196;178;138",
-      "format": "Hewlett-Packard Notebook"
+      "keyColor": "38;2;138;154;123",
+      "format": "{version}"
     },
     {
       "type": "kernel",
       "key": "Kernel",
-      "keyColor": "38;2;196;178;138"
+      "keyColor": "38;2;138;154;123"
     },
     {
       "type": "uptime",
       "key": "Uptime",
-      "keyColor": "38;2;196;178;138"
+      "keyColor": "38;2;138;154;123"
     },
     {
       "type": "command",
       "key": "Age",
-      "keyColor": "38;2;196;178;138",
+      "keyColor": "38;2;138;154;123",
       "text": "s=$(stat -c %W /); n=$(date +%s); diff=$((n - s)); d=$((diff / 86400)); h=$(((diff % 86400) / 3600)); [ \"$d\" -eq 1 ] && ds=\"1 day\" || ds=\"$d days\"; [ \"$h\" -eq 1 ] && hs=\"1 hour\" || hs=\"$h hours\"; echo \"$ds, $hs\""
     },
     {
       "type": "shell",
       "key": "Shell",
-      "keyColor": "38;2;196;178;138"
+      "keyColor": "38;2;138;154;123"
     },
     {
       "type": "terminal",
       "key": "Term",
-      "keyColor": "38;2;196;178;138"
+      "keyColor": "38;2;138;154;123"
     },
     {
       "type": "cpu",
       "key": "CPU",
-      "keyColor": "38;2;142;164;162",
-      "format": "11th Gen Intel ({4}-Core)"
+      "keyColor": "38;2;138;154;123"
     },
     {
       "type": "gpu",
       "key": "GPU",
-      "keyColor": "38;2;142;164;162",
-      "format": "Intel Iris Xe"
+      "keyColor": "38;2;138;154;123",
+      "format": "{vendor} {name}"
     },
     {
       "type": "memory",
       "key": "Memory",
-      "keyColor": "38;2;142;164;162",
-      "format": "{1} / {2}"
+      "keyColor": "38;2;138;154;123"
     },
     "break",
     {

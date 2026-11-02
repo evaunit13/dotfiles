@@ -1,5 +1,8 @@
 MenuBar=Disabled
 
+[ContentDisplay]
+DirectorySizeMode=ContentSize
+
 [ContextMenu]
 ShowCopyToOtherSplitView=false
 ShowOpenInNewTab=false
@@ -18,7 +21,7 @@ Version=202
 ViewPropsTimestamp=2026,4,30,1,21,42.243
 
 [IconsMode]
-PreviewSize=48
+PreviewSize=112
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -27,8 +30,11 @@ Places Icons Static Size=22
 [MainWindow]
 MenuBar=Disabled
 
+[Notification Messages]
+warnAboutRisksBeforeActingAsAdmin=false
+
 [PreviewSettings]
-Plugins=audiothumbnail,jpegthumbnail,svgthumbnail,djvuthumbnail,gsthumbnail,imagethumbnail,comicbookthumbnail,blenderthumbnail,windowsexethumbnail,windowsimagethumbnail,rawthumbnail,ebookthumbnail,cursorthumbnail,kraorathumbnail,exrthumbnail,ffmpegthumbs,opendocumentthumbnail,mobithumbnail,directorythumbnail,fontthumbnail,glycin-image-rs,totem,glycin-heif,gst-video-thumbnailer,glycin-jxl,gsf-office,gst-audio-thumbnailer,glycin-svg
+Plugins=audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,gst-video-thumbnailer,totem,opendocumentthumbnail,gsthumbnail,rawthumbnail,gst-audio-thumbnailer,glycin-svg,svgthumbnail,ffmpegthumbs,gsf-office
 
 [UiSettings]
 ColorScheme=DarkMonochrome

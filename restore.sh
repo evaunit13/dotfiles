@@ -51,6 +51,13 @@ if [[ -d "${TARGET_DIR}/kitty" ]]; then
     echo "--> Restoring Kitty..."
     mkdir -p ~/.config/kitty
     backup_file "${TARGET_DIR}/kitty/kitty.conf" "$HOME/.config/kitty/kitty.conf"
+    if [[ -d "${TARGET_DIR}/kitty/themes" ]]; then
+        mkdir -p ~/.config/kitty/themes
+        cp -r "${TARGET_DIR}/kitty/themes/"* "$HOME/.config/kitty/themes/" 2>/dev/null || true
+    fi
+    if [[ -e "${TARGET_DIR}/kitty/current-theme.conf" ]]; then
+        cp -a "${TARGET_DIR}/kitty/current-theme.conf" "$HOME/.config/kitty/current-theme.conf"
+    fi
 fi
 
 # 3. Starship

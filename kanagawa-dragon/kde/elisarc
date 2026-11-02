@@ -5,4 +5,4 @@ RootPath[$e]=$HOME/Music,/run/media/near/disk
 ColorScheme=DarkMonochrome
 
 [Views]
-InitialFilesViewPath=/run/media/near/disk
+InitialFilesViewPath=/home/ikh/Music/

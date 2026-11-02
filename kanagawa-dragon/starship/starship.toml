@@ -78,14 +78,14 @@ disabled = true
 
 [username]
 show_always = true
-style_user  = "bold fg:color_orange"
+style_user  = "bold fg:color_purple"
 style_root  = "bold fg:color_red"
 format      = "[$user]($style):"
 
 # ── Directory ─────────────────────────────────────────────────────────────────
 
 [directory]
-style             = "bold fg:color_yellow"
+style             = "bold fg:color_orange"
 format            = "[$path]($style) "
 truncation_length = 3
 truncation_symbol = "…/"
@@ -95,7 +95,7 @@ truncate_to_repo  = true
 
 [git_branch]
 symbol = " "
-style  = "bold fg:color_aqua"
+style  = "bold fg:color_green"
 format = "[$symbol$branch]($style) "
 
 [git_status]
