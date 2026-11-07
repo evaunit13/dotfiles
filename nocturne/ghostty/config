@@ -12,19 +12,19 @@ selection-foreground = #faf8f5
 
 # 16-Color Terminal Palette
 palette = 0=#060807
-palette = 1=#881D2C
-palette = 2=#3A4230
+palette = 1=#c4746e
+palette = 2=#79B2A4
 palette = 3=#A89D65
 palette = 4=#5E9589
-palette = 5=#6F5C75
+palette = 5=#8C7694
 palette = 6=#79B2A4
 palette = 7=#d4d2cf
 palette = 8=#6e6c69
-palette = 9=#c4746e
-palette = 10=#535334
-palette = 11=#887D4A
-palette = 12=#79B2A4
-palette = 13=#8C7694
+palette = 9=#e08580
+palette = 10=#9FD4A6
+palette = 11=#DACE9D
+palette = 12=#8FC3B8
+palette = 13=#A996B1
 palette = 14=#DACE9D
 palette = 15=#faf8f5
 

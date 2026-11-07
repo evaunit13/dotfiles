@@ -60,11 +60,11 @@ ACCENT PALETTE (NOCTURNAL OCEAN & LUNAR GOLD)
 #5E9589  (RGB: 94, 149, 137)  - Seafoam Teal (ANSI 4 / Ocean Blue)
                                 Links, functions, active indicators.
 
-#3A4230  (RGB: 58, 66, 48)    - Kelp Moss (ANSI 2 / Green)
-                                Success states, git additions, active prompt arrows.
+#79B2A4  (RGB: 121, 178, 164) - Seafoam Mint (ANSI 2 & 6 / High-Contrast Green & Cyan)
+                                Success states, RAM usage %, live indicators, git additions.
 
-#881D2C  (RGB: 136, 29, 44)   - Sith Crimson (ANSI 1 / Accent Red)
-                                Critical alerts, errors, git deletions.
+#c4746e  (RGB: 196, 116, 110) - Coral Rose (ANSI 1 / Accent Red & Separators)
+                                Error states, separator arrows, alerts, git deletions.
 
-#6F5C75  (RGB: 111, 92, 117)  - Dusky Amethyst (ANSI 5 / Purple)
-                                Numbers, keywords, special tags.
+#8C7694  (RGB: 140, 118, 148) - Dusky Amethyst (ANSI 5 & 13 / Purple)
+                                Numbers, system age, keywords, special tags.

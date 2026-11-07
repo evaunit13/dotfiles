@@ -17,13 +17,13 @@ theme[net_box]="#5E9589"
 theme[proc_box]="#887D4A"
 theme[div_line]="#262F28"
 
-# Temperature graph (Green -> Amber -> Gold)
-theme[temp_start]="#3A4230"
+# Temperature graph (Seafoam -> Amber -> Gold)
+theme[temp_start]="#79B2A4"
 theme[temp_mid]="#A89D65"
 theme[temp_end]="#887D4A"
 
-# CPU graph (Olive -> Teal -> Moonlight Gold)
-theme[cpu_start]="#3A4230"
+# CPU graph (Seafoam -> Teal -> Moonlight Gold)
+theme[cpu_start]="#79B2A4"
 theme[cpu_mid]="#5E9589"
 theme[cpu_end]="#DACE9D"
 
@@ -32,8 +32,8 @@ theme[free_start]="#262F28"
 theme[free_mid]="#3A4230"
 theme[free_end]="#535334"
 
-# Cached memory graph (Teal -> Moonlight)
-theme[cached_start]="#3A4230"
+# Cached memory graph (Seafoam -> Teal -> Moonlight)
+theme[cached_start]="#79B2A4"
 theme[cached_mid]="#5E9589"
 theme[cached_end]="#DACE9D"
 

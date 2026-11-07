@@ -19,10 +19,17 @@
       "keys": "38;2;136;125;74",
       "title": "38;2;212;210;207",
       "output": "38;2;212;210;207",
-      "separator": "38;2;136;125;74"
+      "separator": "38;2;196;116;110"
     },
     "key": {
       "width": 10
+    },
+    "percent": {
+      "color": {
+        "green": "38;2;121;178;164",
+        "yellow": "38;2;218;206;157",
+        "red": "38;2;196;116;110"
+      }
     }
   },
   "modules": [
@@ -34,26 +41,26 @@
       "color": {
         "user": "38;2;218;206;157",
         "at": "38;2;110;108;105",
-        "host": "38;2;212;210;207"
+        "host": "38;2;121;178;164"
       }
     },
     "separator",
     {
       "type": "os",
       "key": "OS",
-      "keyColor": "38;2;136;125;74",
+      "keyColor": "38;2;121;178;164",
       "format": "{2} {12}"
     },
     {
       "type": "host",
       "key": "Host",
-      "keyColor": "38;2;136;125;74",
+      "keyColor": "38;2;94;149;137",
       "format": "{version}"
     },
     {
       "type": "kernel",
       "key": "Kernel",
-      "keyColor": "38;2;136;125;74"
+      "keyColor": "38;2;168;157;101"
     },
     {
       "type": "uptime",
@@ -63,18 +70,18 @@
     {
       "type": "command",
       "key": "Age",
-      "keyColor": "38;2;136;125;74",
+      "keyColor": "38;2;140;118;148",
       "text": "s=$(stat -c %W /); n=$(date +%s); diff=$((n - s)); d=$((diff / 86400)); h=$(((diff % 86400) / 3600)); [ \"$d\" -eq 1 ] && ds=\"1 day\" || ds=\"$d days\"; [ \"$h\" -eq 1 ] && hs=\"1 hour\" || hs=\"$h hours\"; echo \"$ds, $hs\""
     },
     {
       "type": "shell",
       "key": "Shell",
-      "keyColor": "38;2;136;125;74"
+      "keyColor": "38;2;121;178;164"
     },
     {
       "type": "terminal",
       "key": "Term",
-      "keyColor": "38;2;136;125;74"
+      "keyColor": "38;2;94;149;137"
     },
     {
       "type": "cpu",
@@ -84,13 +91,13 @@
     {
       "type": "gpu",
       "key": "GPU",
-      "keyColor": "38;2;136;125;74",
+      "keyColor": "38;2;196;116;110",
       "format": "{vendor} {name}"
     },
     {
       "type": "memory",
       "key": "Memory",
-      "keyColor": "38;2;136;125;74"
+      "keyColor": "38;2;218;206;157"
     },
     "break",
     {
