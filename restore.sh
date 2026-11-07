@@ -158,12 +158,10 @@ fi
 
 # Apply KDE live changes
 if command -v plasma-apply-colorscheme >/dev/null 2>&1; then
-    if [[ "$THEME" == "dark-monochrome" || "$THEME" == "kanagawa-dragon" ]]; then
+    if [[ "$THEME" == "dark-monochrome" || "$THEME" == "kanagawa-dragon" || "$THEME" == "endor" ]]; then
         plasma-apply-colorscheme DarkMonochrome 2>/dev/null || true
     elif [[ "$THEME" == "mocha" ]]; then
         plasma-apply-colorscheme CatppuccinMochaBlue 2>/dev/null || true
-    elif [[ "$THEME" == "endor" ]]; then
-        plasma-apply-colorscheme Endor 2>/dev/null || true
     fi
 fi
 
