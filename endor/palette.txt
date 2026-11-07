@@ -1,0 +1,73 @@
+===============================================================================
+ ENDOR (STAR WARS VERDANT & SITH ACCENT) COLOR PALETTE
+===============================================================================
+
+Description:
+  An atmospheric, dark verdant theme extracted directly from the Star Wars
+  canopy wallpaper (Pictures/Wallpapers/starwars.png). Built on a deep obsidian
+  slate base (#141E25) layered with lush pine, emerald spruce, and viridian moss
+  tones, punctuated by an iconic high-chroma Sith Crimson (#881D2C) and Glacial
+  Mist specular highlights (#B0D2D3).
+
+-------------------------------------------------------------------------------
+CORE BACKGROUND & SURFACES
+-------------------------------------------------------------------------------
+
+#141E25  (RGB: 20, 30, 37)    - Base / Canvas Background (Obsidian Void)
+                                Primary application canvas, terminal background, editor canvas.
+
+#1B3A30  (RGB: 27, 58, 48)    - Mantle / Surface Background (Dark Pine Shadow)
+                                Secondary surfaces, sidebar panels, toolbar backgrounds.
+
+#0E151A  (RGB: 14, 21, 26)    - Crust / Deep Background (Deep Abyss)
+                                Deepest backdrops, window frames, bottom status bars.
+
+#244C3B  (RGB: 36, 76, 59)    - Surface0 / Card & Inactive Tab (Deep Hunter)
+                                Card containers, inactive tabs, unselected list items.
+
+#2C5A43  (RGB: 44, 90, 67)    - Surface1 / Selection & Active Tab (Forest Emerald)
+                                Text selection, active tab backgrounds, active buttons.
+
+#33664D  (RGB: 51, 102, 77)   - Surface2 / Hover & Focus (Lush Spruce)
+                                Element hover states, focus rings, active meters.
+
+-------------------------------------------------------------------------------
+TEXT & TYPOGRAPHY
+-------------------------------------------------------------------------------
+
+#C8D5CE  (RGB: 200, 213, 206) - Primary Text / Foreground (Endor Fog White)
+                                Main text, terminal foreground, editor code text.
+
+#E2EDE8  (RGB: 226, 237, 232) - High Foreground / Headings (Pure Mist)
+                                Bold headings, active window titles, emphasis text.
+
+#6E8279  (RGB: 110, 130, 121) - Subdued Text & Dividers (Forest Ash)
+                                Comments, line numbers, subtle borders, muted captions.
+
+-------------------------------------------------------------------------------
+ACCENT PALETTE (ENDOR & SITH HUES)
+-------------------------------------------------------------------------------
+
+#881D2C  (RGB: 136, 29, 44)   - Sith Crimson (Signature Accent / ANSI 1 Red)
+                                Urgent notifications, errors, primary visual counterpoint.
+
+#3B735A  (RGB: 59, 115, 90)   - Viridian Moss (ANSI 2 Green)
+                                Success states, git additions, active indicators.
+
+#C2A86E  (RGB: 194, 168, 110) - Sand Gold (ANSI 3 Yellow)
+                                Warnings, execution timers, git branch highlights.
+
+#5E9589  (RGB: 94, 149, 137)  - Muted Seafoam (ANSI 4 Blue/Teal)
+                                Directories, links, active functions.
+
+#6F5C75  (RGB: 111, 92, 117)  - Dusky Amethyst (ANSI 5 Purple)
+                                Username prompt, special keywords, numbers.
+
+#46846B  (RGB: 70, 132, 107)  - Sage Leaf (ANSI 6 Cyan/Mint)
+                                Secondary keywords, strings, tags.
+
+#B0D2D3  (RGB: 176, 210, 211) - Glacial Mist (ANSI 14 Bright Cyan / Highlight)
+                                Specular light, cursor highlight, focus glow.
+
+#D97E52  (RGB: 217, 126, 82)  - Kyber Terracotta (ANSI 9 Bright Red/Orange)
+                                Parameter names, git changes, intermediate alerts.

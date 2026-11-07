@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Dotfiles Restore Script
-# Usage: ./restore.sh [dark-monochrome|mocha|kanagawa-dragon]
+# Usage: ./restore.sh [dark-monochrome|mocha|kanagawa-dragon|endor]
 
 THEME="${1:-dark-monochrome}"
 [[ "$THEME" == "kanagawa" ]] && THEME="kanagawa-dragon"
@@ -12,7 +12,7 @@ TARGET_DIR="${DOTFILES_DIR}/${THEME}"
 
 if [[ ! -d "$TARGET_DIR" ]]; then
     echo "Error: Theme directory '$TARGET_DIR' does not exist."
-    echo "Available themes: dark-monochrome, mocha, kanagawa-dragon"
+    echo "Available themes: dark-monochrome, mocha, kanagawa-dragon, endor"
     exit 1
 fi
 
@@ -124,6 +124,14 @@ if [[ -d "${TARGET_DIR}/zen-browser/chrome" ]]; then
     done
 fi
 
+# 8b. Helium Browser
+if [[ -f "${TARGET_DIR}/helium/manifest.json" ]]; then
+    echo "--> Restoring Helium Browser theme..."
+    mkdir -p "$HOME/.config/net.imput.helium/themes/rice-dark-theme"
+    backup_file "${TARGET_DIR}/helium/manifest.json" "$HOME/.config/net.imput.helium/themes/rice-dark-theme/manifest.json"
+    rm -f "$HOME/.config/net.imput.helium/themes/rice-dark-theme/Cached Theme.pak" 2>/dev/null || true
+fi
+
 # 9. KDE Plasma & Window Decorations
 if [[ -d "${TARGET_DIR}/kde" ]]; then
     echo "--> Restoring KDE Plasma..."
@@ -154,6 +162,14 @@ if command -v plasma-apply-colorscheme >/dev/null 2>&1; then
         plasma-apply-colorscheme DarkMonochrome 2>/dev/null || true
     elif [[ "$THEME" == "mocha" ]]; then
         plasma-apply-colorscheme CatppuccinMochaBlue 2>/dev/null || true
+    elif [[ "$THEME" == "endor" ]]; then
+        plasma-apply-colorscheme Endor 2>/dev/null || true
+    fi
+fi
+
+if [[ "$THEME" == "endor" && -f "$HOME/Pictures/Wallpapers/starwars.png" ]]; then
+    if command -v plasma-apply-wallpaperimage >/dev/null 2>&1; then
+        plasma-apply-wallpaperimage "$HOME/Pictures/Wallpapers/starwars.png" 2>/dev/null || true
     fi
 fi
 
@@ -163,5 +179,5 @@ fi
 
 echo "========================================="
 echo " Done restoring ${THEME} rice!"
-echo " Restart Zen Browser, Ghostty & Kitty to see full changes."
+echo " Restart Zen Browser, Helium, Ghostty & Kitty to see full changes."
 echo "========================================="

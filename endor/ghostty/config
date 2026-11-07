@@ -1,0 +1,53 @@
+# -----------------------------------------------------------------------------
+# Theme: Endor (Star Wars Verdant & Sith Accent)
+# -----------------------------------------------------------------------------
+
+# Core UI
+background   = #141E25
+foreground   = #C8D5CE
+cursor-color = #B0D2D3
+cursor-text  = #141E25
+selection-background = #2C5A43
+selection-foreground = #E2EDE8
+
+# 16-Color Terminal Palette
+palette = 0=#0E151A
+palette = 1=#881D2C
+palette = 2=#3B735A
+palette = 3=#C2A86E
+palette = 4=#5E9589
+palette = 5=#6F5C75
+palette = 6=#46846B
+palette = 7=#C8D5CE
+palette = 8=#6E8279
+palette = 9=#D97E52
+palette = 10=#46846B
+palette = 11=#E6C987
+palette = 12=#79B2A4
+palette = 13=#8C7694
+palette = 14=#B0D2D3
+palette = 15=#E2EDE8
+
+# Typography & Layout
+font-family  = JetBrains Mono
+font-size    = 11
+window-width  = 87
+window-height = 22
+window-padding-x = 10
+window-padding-y = 5
+cursor-style       = bar
+cursor-style-blink = true
+shell-integration  = detect
+scrollback-limit   = 10000
+copy-on-select     = clipboard
+mouse-hide-while-typing = true
+gtk-single-instance = true
+quit-after-last-window-closed = false
+confirm-close-surface = false
+scrollbar = never
+mouse-scroll-multiplier = discrete:1,precision:1
+
+# Custom Shaders
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/ripple_cursor.glsl
+custom-shader-animation = true

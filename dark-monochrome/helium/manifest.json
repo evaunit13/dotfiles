@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.2",
+  "name": "Helium Rice Theme (Dark Monochrome)",
+  "description": "Dominant rice black (#141312) with high-contrast active tab text and subtle dark tab bar",
+  "theme": {
+    "colors": {
+      "frame": [12, 11, 10],
+      "frame_inactive": [8, 7, 6],
+      "frame_incognito": [12, 11, 10],
+      "frame_incognito_inactive": [8, 7, 6],
+      "toolbar": [20, 19, 18],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [115, 112, 108],
+      "tab_background_text_inactive": [75, 73, 70],
+      "tab_background_text_incognito": [115, 112, 108],
+      "tab_background_text_incognito_inactive": [75, 73, 70],
+      "bookmark_text": [212, 210, 207],
+      "toolbar_text": [212, 210, 207],
+      "toolbar_button_icon": [212, 210, 207],
+      "omnibox_background": [32, 30, 28],
+      "omnibox_text": [250, 248, 245],
+      "ntp_background": [20, 19, 18],
+      "ntp_text": [212, 210, 207]
+    }
+  }
+}

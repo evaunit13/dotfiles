@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.2",
+  "name": "Helium Endor Theme (Star Wars Verdant)",
+  "description": "Star Wars Endor theme with obsidian canvas (#141E25), dark pine toolbar (#1B3A30), and glacial mist highlights",
+  "theme": {
+    "colors": {
+      "frame": [14, 21, 26],
+      "frame_inactive": [10, 15, 19],
+      "frame_incognito": [14, 21, 26],
+      "frame_incognito_inactive": [10, 15, 19],
+      "toolbar": [27, 58, 48],
+      "tab_text": [226, 237, 232],
+      "tab_background_text": [122, 148, 136],
+      "tab_background_text_inactive": [85, 105, 96],
+      "tab_background_text_incognito": [122, 148, 136],
+      "tab_background_text_incognito_inactive": [85, 105, 96],
+      "bookmark_text": [200, 213, 206],
+      "toolbar_text": [200, 213, 206],
+      "toolbar_button_icon": [200, 213, 206],
+      "omnibox_background": [36, 76, 59],
+      "omnibox_text": [226, 237, 232],
+      "ntp_background": [20, 30, 37],
+      "ntp_text": [200, 213, 206]
+    }
+  }
+}

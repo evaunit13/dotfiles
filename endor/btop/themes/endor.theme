@@ -1,0 +1,63 @@
+# Main background, frame, text
+theme[main_bg]="#141E25"
+theme[main_fg]="#C8D5CE"
+theme[title]="#C2A86E"
+theme[hi_fg]="#D97E52"
+theme[selected_bg]="#2C5A43"
+theme[selected_fg]="#E2EDE8"
+theme[inactive_fg]="#6E8279"
+theme[graph_text]="#C8D5CE"
+theme[meter_bg]="#1B3A30"
+theme[proc_misc]="#5E9589"
+
+# Box borders
+theme[cpu_box]="#3B735A"
+theme[mem_box]="#6F5C75"
+theme[net_box]="#5E9589"
+theme[proc_box]="#881D2C"
+theme[div_line]="#244C3B"
+
+# Temperature graph (Green -> Gold -> Sith Crimson)
+theme[temp_start]="#3B735A"
+theme[temp_mid]="#C2A86E"
+theme[temp_end]="#881D2C"
+
+# CPU graph (Viridian -> Seafoam -> Glacial Mist)
+theme[cpu_start]="#3B735A"
+theme[cpu_mid]="#5E9589"
+theme[cpu_end]="#B0D2D3"
+
+# Free memory graph (Emerald -> Viridian)
+theme[free_start]="#244C3B"
+theme[free_mid]="#2C5A43"
+theme[free_end]="#3B735A"
+
+# Cached memory graph (Seafoam -> Glacial Mist)
+theme[cached_start]="#3B735A"
+theme[cached_mid]="#5E9589"
+theme[cached_end]="#B0D2D3"
+
+# Available memory graph (Gold -> Emerald)
+theme[available_start]="#C2A86E"
+theme[available_mid]="#3B735A"
+theme[available_end]="#2C5A43"
+
+# Used memory graph (Gold -> Orange -> Sith Crimson)
+theme[used_start]="#C2A86E"
+theme[used_mid]="#D97E52"
+theme[used_end]="#881D2C"
+
+# Download graph (Dark Pine -> Seafoam)
+theme[download_start]="#1B3A30"
+theme[download_mid]="#3B735A"
+theme[download_end]="#5E9589"
+
+# Upload graph (Viridian -> Glacial Mist)
+theme[upload_start]="#3B735A"
+theme[upload_mid]="#79B2A4"
+theme[upload_end]="#B0D2D3"
+
+# Process box & bars (Amethyst -> Sith Crimson)
+theme[process_start]="#6F5C75"
+theme[process_mid]="#B44D5B"
+theme[process_end]="#881D2C"

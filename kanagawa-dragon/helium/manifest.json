@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.2",
+  "name": "Helium Kanagawa Dragon Theme",
+  "description": "Kanagawa Dragon theme on deep matte charcoal (#141312) with dragon white text and wave blue accents",
+  "theme": {
+    "colors": {
+      "frame": [13, 12, 12],
+      "frame_inactive": [10, 9, 9],
+      "frame_incognito": [13, 12, 12],
+      "frame_incognito_inactive": [10, 9, 9],
+      "toolbar": [20, 19, 18],
+      "tab_text": [220, 215, 186],
+      "tab_background_text": [122, 131, 130],
+      "tab_background_text_inactive": [80, 85, 84],
+      "tab_background_text_incognito": [122, 131, 130],
+      "tab_background_text_incognito_inactive": [80, 85, 84],
+      "bookmark_text": [197, 201, 197],
+      "toolbar_text": [197, 201, 197],
+      "toolbar_button_icon": [197, 201, 197],
+      "omnibox_background": [31, 30, 29],
+      "omnibox_text": [220, 215, 186],
+      "ntp_background": [20, 19, 18],
+      "ntp_text": [197, 201, 197]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+/* Endor (Star Wars Verdant) userChrome.css */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zen-colors-primary: #2C5A43 !important;
+    --zen-primary-color: #3B735A !important;
+    --zen-colors-secondary: #244C3B !important;
+    --zen-colors-tertiary: #1B3A30 !important;
+    --zen-colors-border: #244C3B !important;
+    --toolbarbutton-icon-fill: #C8D5CE !important;
+    --lwt-text-color: #C8D5CE !important;
+    --toolbar-field-color: #C8D5CE !important;
+    --tab-selected-textcolor: #E2EDE8 !important;
+    --toolbar-field-focus-color: #E2EDE8 !important;
+    --toolbar-color: #C8D5CE !important;
+    --newtab-text-primary-color: #C8D5CE !important;
+    --arrowpanel-color: #C8D5CE !important;
+    --arrowpanel-background: #141E25 !important;
+    --sidebar-text-color: #C8D5CE !important;
+    --lwt-sidebar-text-color: #C8D5CE !important;
+    --lwt-sidebar-background-color: #0E151A !important;
+    --toolbar-bgcolor: #1B3A30 !important;
+    --newtab-background-color: #141E25 !important;
+    --zen-themed-toolbar-bg: #141E25 !important;
+    --zen-main-browser-background: #141E25 !important;
+    --toolbox-bgcolor-inactive: #0E151A !important;
+  }
+
+  #permissions-granted-icon {
+    color: #3B735A !important;
+  }
+
+  .sidebar-placesTree {
+    background-color: #141E25 !important;
+  }
+
+  #zen-workspaces-button {
+    background-color: #1B3A30 !important;
+  }
+
+  #TabsToolbar {
+    background-color: #0E151A !important;
+  }
+}

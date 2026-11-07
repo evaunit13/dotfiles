@@ -1,0 +1,7 @@
+[Daemon]
+LockGrace=300
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/user/Pictures/Wallpapers/ThinkStation_wallpaper_2560x1440.png
+PreviewImage=file:///home/user/Pictures/Wallpapers/ThinkStation_wallpaper_2560x1440.png
+SlidePaths=/usr/share/wallpapers/
