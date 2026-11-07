@@ -126,12 +126,12 @@ TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
 TerminalService=com.mitchellh.ghostty.desktop
 XftAntialias=true
 XftHintStyle=hintslight
-XftSubPixel=none
-fixed=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=JetBrains Mono,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=JetBrains Mono,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+XftSubPixel=rgb
+fixed=Iosevka Term Slab,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+font=Iosevka Term Slab,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+menuFont=Iosevka Term Slab,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+smallestReadableFont=Iosevka Term Slab,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
+toolBarFont=Iosevka Term Slab,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 
 [Icons]
 Theme=Papirus-Dark-Monochrome
@@ -167,7 +167,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=20,19,18
 activeBlend=212,210,207
-activeFont=JetBrains Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeFont=Iosevka Term Slab,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,,0,0
 activeForeground=212,210,207
 inactiveBackground=14,13,12
 inactiveBlend=165,163,160
