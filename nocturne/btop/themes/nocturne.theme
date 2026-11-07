@@ -1,0 +1,63 @@
+# Main background, frame, text
+theme[main_bg]="#141312"
+theme[main_fg]="#d4d2cf"
+theme[title]="#DACE9D"
+theme[hi_fg]="#887D4A"
+theme[selected_bg]="#3A4230"
+theme[selected_fg]="#faf8f5"
+theme[inactive_fg]="#6e6c69"
+theme[graph_text]="#d4d2cf"
+theme[meter_bg]="#191F1F"
+theme[proc_misc]="#5E9589"
+
+# Box borders
+theme[cpu_box]="#3A4230"
+theme[mem_box]="#6F5C75"
+theme[net_box]="#5E9589"
+theme[proc_box]="#887D4A"
+theme[div_line]="#262F28"
+
+# Temperature graph (Green -> Amber -> Gold)
+theme[temp_start]="#3A4230"
+theme[temp_mid]="#A89D65"
+theme[temp_end]="#887D4A"
+
+# CPU graph (Olive -> Teal -> Moonlight Gold)
+theme[cpu_start]="#3A4230"
+theme[cpu_mid]="#5E9589"
+theme[cpu_end]="#DACE9D"
+
+# Free memory graph (Olive -> Bronze)
+theme[free_start]="#262F28"
+theme[free_mid]="#3A4230"
+theme[free_end]="#535334"
+
+# Cached memory graph (Teal -> Moonlight)
+theme[cached_start]="#3A4230"
+theme[cached_mid]="#5E9589"
+theme[cached_end]="#DACE9D"
+
+# Available memory graph (Amber -> Bronze)
+theme[available_start]="#887D4A"
+theme[available_mid]="#535334"
+theme[available_end]="#3A4230"
+
+# Used memory graph (Gold -> Amber -> Crimson)
+theme[used_start]="#887D4A"
+theme[used_mid]="#A89D65"
+theme[used_end]="#881D2C"
+
+# Download graph (Deep Shadow -> Teal)
+theme[download_start]="#191F1F"
+theme[download_mid]="#3A4230"
+theme[download_end]="#5E9589"
+
+# Upload graph (Bronze -> Moonlight Gold)
+theme[upload_start]="#535334"
+theme[upload_mid]="#887D4A"
+theme[upload_end]="#DACE9D"
+
+# Process box & bars (Amethyst -> Amber Gold)
+theme[process_start]="#6F5C75"
+theme[process_mid]="#A89D65"
+theme[process_end]="#887D4A"

@@ -1,0 +1,70 @@
+===============================================================================
+ NOCTURNE (NOCTURNAL SEASCAPE & MOONLIT GOLD) COLOR PALETTE
+===============================================================================
+
+Description:
+  An atmospheric, dark oceanic theme extracted from the Sea Night wallpaper
+  (Pictures/Wallpapers/sea night.jpg). Anchored on the signature dark matte
+  charcoal canvas (#141312) and warm light gray typography (#d4d2cf), layered
+  with abyssal ocean shadows (#191F1F), marine olive midtones (#262F28, #3A4230),
+  and glowing golden moonlight ripples (#887D4A, #DACE9D).
+
+-------------------------------------------------------------------------------
+CORE BACKGROUND & SURFACES (DARK MONOCHROME CANVAS)
+-------------------------------------------------------------------------------
+
+#141312  (RGB: 20, 19, 18)    - Base / Main Background (Dark Matte Charcoal)
+                                Primary terminal background, editor canvas, KDE window base.
+
+#191F1F  (RGB: 25, 31, 31)    - Mantle / Surface Background (Abyssal Shadow)
+                                Browser toolbars, sidebars, secondary panel surfaces.
+
+#060807  (RGB: 6, 8, 7)       - Crust / Deep Background (Midnight Abyss)
+                                Deepest backdrops, window frames, bottom status bars.
+
+#262F28  (RGB: 38, 47, 40)    - Surface0 / Card & Inactive Tab (Deep Olive Marine)
+                                Card containers, inactive tabs, unselected list items.
+
+#3A4230  (RGB: 58, 66, 48)    - Surface1 / Selection & Active Tab (Dark Kelp Moss)
+                                Text selection backgrounds, active tab surfaces, active buttons.
+
+#535334  (RGB: 83, 83, 52)    - Surface2 / Hover & Focus (Antique Bronze)
+                                Element hover states, focus indicators, active meters.
+
+-------------------------------------------------------------------------------
+TEXT & TYPOGRAPHY
+-------------------------------------------------------------------------------
+
+#d4d2cf  (RGB: 212, 210, 207) - Primary Text / Foreground (Warm Light Gray)
+                                Main text, terminal foreground, editor code text.
+
+#faf8f5  (RGB: 250, 248, 245) - High Foreground / Headings (Pure Off-White)
+                                Bold headings, active window titles, emphasis text.
+
+#6e6c69  (RGB: 110, 108, 105) - Subdued Text & Dividers (Forest Ash)
+                                Comments, line numbers, subtle borders, muted captions.
+
+-------------------------------------------------------------------------------
+ACCENT PALETTE (NOCTURNAL OCEAN & LUNAR GOLD)
+-------------------------------------------------------------------------------
+
+#DACE9D  (RGB: 218, 206, 157) - Moonlight Specular (ANSI 14 / Signature Highlight)
+                                Prompt username, specular wave highlights, cursor glow.
+
+#887D4A  (RGB: 136, 125, 74)  - Luminous Gold (ANSI 11 / Warm Golden Accent)
+                                Execution times, primary warm wave reflection.
+
+#A89D65  (RGB: 168, 157, 101) - Warm Dune Sand (ANSI 3 / Amber Yellow)
+                                Directory path highlights, warnings, branch names.
+
+#5E9589  (RGB: 94, 149, 137)  - Seafoam Teal (ANSI 4 / Ocean Blue)
+                                Links, functions, active indicators.
+
+#3A4230  (RGB: 58, 66, 48)    - Kelp Moss (ANSI 2 / Green)
+                                Success states, git additions, active prompt arrows.
+
+#881D2C  (RGB: 136, 29, 44)   - Sith Crimson (ANSI 1 / Accent Red)
+                                Critical alerts, errors, git deletions.
+
+#6F5C75  (RGB: 111, 92, 117)  - Dusky Amethyst (ANSI 5 / Purple)
+                                Numbers, keywords, special tags.

@@ -1,0 +1,44 @@
+/* Nocturne (Sea Night & Moonlit Gold) userChrome.css */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zen-colors-primary: #887D4A !important;
+    --zen-primary-color: #DACE9D !important;
+    --zen-colors-secondary: #262F28 !important;
+    --zen-colors-tertiary: #191F1F !important;
+    --zen-colors-border: #191F1F !important;
+    --toolbarbutton-icon-fill: #d4d2cf !important;
+    --lwt-text-color: #d4d2cf !important;
+    --toolbar-field-color: #d4d2cf !important;
+    --tab-selected-textcolor: #faf8f5 !important;
+    --toolbar-field-focus-color: #faf8f5 !important;
+    --toolbar-color: #d4d2cf !important;
+    --newtab-text-primary-color: #d4d2cf !important;
+    --arrowpanel-color: #d4d2cf !important;
+    --arrowpanel-background: #141312 !important;
+    --sidebar-text-color: #d4d2cf !important;
+    --lwt-sidebar-text-color: #d4d2cf !important;
+    --lwt-sidebar-background-color: #060807 !important;
+    --toolbar-bgcolor: #191F1F !important;
+    --newtab-background-color: #141312 !important;
+    --zen-themed-toolbar-bg: #141312 !important;
+    --zen-main-browser-background: #141312 !important;
+    --toolbox-bgcolor-inactive: #060807 !important;
+  }
+
+  #permissions-granted-icon {
+    color: #DACE9D !important;
+  }
+
+  .sidebar-placesTree {
+    background-color: #141312 !important;
+  }
+
+  #zen-workspaces-button {
+    background-color: #191F1F !important;
+  }
+
+  #TabsToolbar {
+    background-color: #060807 !important;
+  }
+}

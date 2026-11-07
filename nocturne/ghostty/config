@@ -1,0 +1,53 @@
+# -----------------------------------------------------------------------------
+# Theme: Nocturne on Dark Matte Charcoal (Nocturnal Sea & Moonlit Gold)
+# -----------------------------------------------------------------------------
+
+# Core UI
+background   = #141312
+foreground   = #d4d2cf
+cursor-color = #DACE9D
+cursor-text  = #141312
+selection-background = #3A4230
+selection-foreground = #faf8f5
+
+# 16-Color Terminal Palette
+palette = 0=#060807
+palette = 1=#881D2C
+palette = 2=#3A4230
+palette = 3=#A89D65
+palette = 4=#5E9589
+palette = 5=#6F5C75
+palette = 6=#79B2A4
+palette = 7=#d4d2cf
+palette = 8=#6e6c69
+palette = 9=#c4746e
+palette = 10=#535334
+palette = 11=#887D4A
+palette = 12=#79B2A4
+palette = 13=#8C7694
+palette = 14=#DACE9D
+palette = 15=#faf8f5
+
+# Typography & Layout
+font-family  = JetBrains Mono
+font-size    = 11
+window-width  = 87
+window-height = 22
+window-padding-x = 10
+window-padding-y = 5
+cursor-style       = bar
+cursor-style-blink = true
+shell-integration  = detect
+scrollback-limit   = 10000
+copy-on-select     = clipboard
+mouse-hide-while-typing = true
+gtk-single-instance = true
+quit-after-last-window-closed = false
+confirm-close-surface = false
+scrollbar = never
+mouse-scroll-multiplier = discrete:1,precision:1
+
+# Custom Shaders
+custom-shader = shaders/cursor_warp.glsl
+custom-shader = shaders/ripple_cursor.glsl
+custom-shader-animation = true

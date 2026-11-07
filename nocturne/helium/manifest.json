@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "version": "1.2",
+  "name": "Helium Nocturne Theme (Sea Night & Moonlit Gold)",
+  "description": "Nocturnal sea theme on dark monochrome charcoal base (#141312) with abyssal omnibox (#191F1F) and moonlight specular highlights (#DACE9D)",
+  "theme": {
+    "colors": {
+      "frame": [6, 8, 7],
+      "frame_inactive": [4, 5, 5],
+      "frame_incognito": [6, 8, 7],
+      "frame_incognito_inactive": [4, 5, 5],
+      "toolbar": [20, 19, 18],
+      "tab_text": [250, 248, 245],
+      "tab_background_text": [168, 157, 101],
+      "tab_background_text_inactive": [110, 108, 105],
+      "tab_background_text_incognito": [168, 157, 101],
+      "tab_background_text_incognito_inactive": [110, 108, 105],
+      "bookmark_text": [212, 210, 207],
+      "toolbar_text": [212, 210, 207],
+      "toolbar_button_icon": [212, 210, 207],
+      "omnibox_background": [25, 31, 31],
+      "omnibox_text": [218, 206, 157],
+      "ntp_background": [20, 19, 18],
+      "ntp_text": [212, 210, 207]
+    }
+  }
+}

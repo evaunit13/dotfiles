@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Dotfiles Restore Script
-# Usage: ./restore.sh [dark-monochrome|mocha|kanagawa-dragon|endor]
+# Usage: ./restore.sh [dark-monochrome|mocha|kanagawa-dragon|endor|nocturne]
 
 THEME="${1:-dark-monochrome}"
 [[ "$THEME" == "kanagawa" ]] && THEME="kanagawa-dragon"
@@ -12,7 +12,7 @@ TARGET_DIR="${DOTFILES_DIR}/${THEME}"
 
 if [[ ! -d "$TARGET_DIR" ]]; then
     echo "Error: Theme directory '$TARGET_DIR' does not exist."
-    echo "Available themes: dark-monochrome, mocha, kanagawa-dragon, endor"
+    echo "Available themes: dark-monochrome, mocha, kanagawa-dragon, endor, nocturne"
     exit 1
 fi
 
@@ -158,7 +158,7 @@ fi
 
 # Apply KDE live changes
 if command -v plasma-apply-colorscheme >/dev/null 2>&1; then
-    if [[ "$THEME" == "dark-monochrome" || "$THEME" == "kanagawa-dragon" || "$THEME" == "endor" ]]; then
+    if [[ "$THEME" == "dark-monochrome" || "$THEME" == "kanagawa-dragon" || "$THEME" == "endor" || "$THEME" == "nocturne" ]]; then
         plasma-apply-colorscheme DarkMonochrome 2>/dev/null || true
     elif [[ "$THEME" == "mocha" ]]; then
         plasma-apply-colorscheme CatppuccinMochaBlue 2>/dev/null || true
@@ -168,6 +168,10 @@ fi
 if [[ "$THEME" == "endor" && -f "$HOME/Pictures/Wallpapers/starwars.png" ]]; then
     if command -v plasma-apply-wallpaperimage >/dev/null 2>&1; then
         plasma-apply-wallpaperimage "$HOME/Pictures/Wallpapers/starwars.png" 2>/dev/null || true
+    fi
+elif [[ "$THEME" == "nocturne" && -f "$HOME/Pictures/Wallpapers/sea night.jpg" ]]; then
+    if command -v plasma-apply-wallpaperimage >/dev/null 2>&1; then
+        plasma-apply-wallpaperimage "$HOME/Pictures/Wallpapers/sea night.jpg" 2>/dev/null || true
     fi
 fi
 
