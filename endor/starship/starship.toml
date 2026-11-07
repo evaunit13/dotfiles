@@ -65,7 +65,7 @@ disabled = true
 
 [username]
 show_always = true
-style_user  = "bold fg:color_red"
+style_user  = "bold fg:color_aqua"
 style_root  = "bold fg:color_red"
 format      = "[$user]($style):"
 
