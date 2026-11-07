@@ -20,9 +20,9 @@ right_format = """$cmd_duration$python$time"""
 palette = "endor"
 
 [palettes.endor]
-color_fg0     = "#141E25"
-color_bg1     = "#141E25"
-color_bg3     = "#6E8279"
+color_fg0     = "#141312"
+color_bg1     = "#141312"
+color_bg3     = "#6e6c69"
 color_blue    = "#5E9589"
 color_aqua    = "#B0D2D3"
 color_green   = "#3B735A"
@@ -30,7 +30,7 @@ color_orange  = "#D97E52"
 color_yellow  = "#C2A86E"
 color_purple  = "#6F5C75"
 color_red     = "#881D2C"
-color_fg      = "#C8D5CE"
+color_fg      = "#d4d2cf"
 
 [palettes.kanagawa_dragon]
 color_fg0     = "#141312"

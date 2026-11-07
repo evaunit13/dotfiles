@@ -1,12 +1,12 @@
 # Main background, frame, text
-theme[main_bg]="#141E25"
-theme[main_fg]="#C8D5CE"
+theme[main_bg]="#141312"
+theme[main_fg]="#d4d2cf"
 theme[title]="#C2A86E"
 theme[hi_fg]="#D97E52"
 theme[selected_bg]="#2C5A43"
-theme[selected_fg]="#E2EDE8"
-theme[inactive_fg]="#6E8279"
-theme[graph_text]="#C8D5CE"
+theme[selected_fg]="#faf8f5"
+theme[inactive_fg]="#6e6c69"
+theme[graph_text]="#d4d2cf"
 theme[meter_bg]="#1B3A30"
 theme[proc_misc]="#5E9589"
 

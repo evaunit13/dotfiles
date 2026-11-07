@@ -1,25 +1,25 @@
 ===============================================================================
- ENDOR (STAR WARS VERDANT & SITH ACCENT) COLOR PALETTE
+ ENDOR (STAR WARS VERDANT ON DARK CHARCOAL) COLOR PALETTE
 ===============================================================================
 
 Description:
-  An atmospheric, dark verdant theme extracted directly from the Star Wars
-  canopy wallpaper (Pictures/Wallpapers/starwars.png). Built on a deep obsidian
-  slate base (#141E25) layered with lush pine, emerald spruce, and viridian moss
-  tones, punctuated by an iconic high-chroma Sith Crimson (#881D2C) and Glacial
-  Mist specular highlights (#B0D2D3).
+  An atmospheric, dark verdant theme combining the dark monochrome matte
+  charcoal base (#141312) and warm light gray text (#d4d2cf) with rich Star Wars
+  canopy accents: dark pine (#1B3A30), deep hunter (#244C3B), forest emerald
+  (#2C5A43), viridian moss (#3B735A), an iconic Sith Crimson accent (#881D2C),
+  and Glacial Mist highlights (#B0D2D3).
 
 -------------------------------------------------------------------------------
 CORE BACKGROUND & SURFACES
 -------------------------------------------------------------------------------
 
-#141E25  (RGB: 20, 30, 37)    - Base / Canvas Background (Obsidian Void)
+#141312  (RGB: 20, 19, 18)    - Base / Main Background (Dark Matte Charcoal)
                                 Primary application canvas, terminal background, editor canvas.
 
 #1B3A30  (RGB: 27, 58, 48)    - Mantle / Surface Background (Dark Pine Shadow)
                                 Secondary surfaces, sidebar panels, toolbar backgrounds.
 
-#0E151A  (RGB: 14, 21, 26)    - Crust / Deep Background (Deep Abyss)
+#0E0D0C  (RGB: 14, 13, 12)    - Crust / Deep Background (Deep Matte Charcoal)
                                 Deepest backdrops, window frames, bottom status bars.
 
 #244C3B  (RGB: 36, 76, 59)    - Surface0 / Card & Inactive Tab (Deep Hunter)
@@ -32,16 +32,16 @@ CORE BACKGROUND & SURFACES
                                 Element hover states, focus rings, active meters.
 
 -------------------------------------------------------------------------------
-TEXT & TYPOGRAPHY
+TEXT & TYPOGRAPHY (DARK MONOCHROME PROFILE)
 -------------------------------------------------------------------------------
 
-#C8D5CE  (RGB: 200, 213, 206) - Primary Text / Foreground (Endor Fog White)
+#d4d2cf  (RGB: 212, 210, 207) - Primary Text / Foreground (Warm Light Gray)
                                 Main text, terminal foreground, editor code text.
 
-#E2EDE8  (RGB: 226, 237, 232) - High Foreground / Headings (Pure Mist)
+#faf8f5  (RGB: 250, 248, 245) - High Foreground / Headings (Pure Off-White)
                                 Bold headings, active window titles, emphasis text.
 
-#6E8279  (RGB: 110, 130, 121) - Subdued Text & Dividers (Forest Ash)
+#6e6c69  (RGB: 110, 108, 105) - Subdued Text & Dividers (Forest Ash)
                                 Comments, line numbers, subtle borders, muted captions.
 
 -------------------------------------------------------------------------------

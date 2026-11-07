@@ -1,32 +1,32 @@
 # -----------------------------------------------------------------------------
-# Theme: Endor (Star Wars Verdant & Sith Accent)
+# Theme: Endor on Dark Matte Charcoal (Star Wars Verdant)
 # -----------------------------------------------------------------------------
 
 # Core UI
-background   = #141E25
-foreground   = #C8D5CE
+background   = #141312
+foreground   = #d4d2cf
 cursor-color = #B0D2D3
-cursor-text  = #141E25
+cursor-text  = #141312
 selection-background = #2C5A43
-selection-foreground = #E2EDE8
+selection-foreground = #faf8f5
 
 # 16-Color Terminal Palette
-palette = 0=#0E151A
+palette = 0=#0e0d0c
 palette = 1=#881D2C
 palette = 2=#3B735A
 palette = 3=#C2A86E
 palette = 4=#5E9589
 palette = 5=#6F5C75
 palette = 6=#46846B
-palette = 7=#C8D5CE
-palette = 8=#6E8279
+palette = 7=#d4d2cf
+palette = 8=#6e6c69
 palette = 9=#D97E52
 palette = 10=#46846B
 palette = 11=#E6C987
 palette = 12=#79B2A4
 palette = 13=#8C7694
 palette = 14=#B0D2D3
-palette = 15=#E2EDE8
+palette = 15=#faf8f5
 
 # Typography & Layout
 font-family  = JetBrains Mono
