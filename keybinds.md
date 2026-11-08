@@ -117,3 +117,20 @@ Organized by functional category with matching **Niri (`config.kdl`)** syntax eq
 | **Logout / Power Menu** | `Ctrl + Alt + Del` | `Ctrl+Alt+Delete { quit; }` |
 | **Power Profile Switch** | `Meta + B` | `Mod+B { spawn "powerprofilesctl" "cycle"; }` |
 | **Keyboard Layout Switch** | `Meta + Alt + K` / `Meta + Alt + L` | `Mod+Space { switch-layout "next"; }` |
+
+---
+
+## 7. Helium Browser Custom Accelerators & Shortcuts
+
+Extracted from Helium's profile preferences (`~/.config/net.imput.helium/Default/Preferences`):
+
+| Action | Helium Shortcut | Default Chromium Key (Replaced) |
+| :--- | :--- | :--- |
+| **New Tab** | `Ctrl + W` | `Ctrl + T` (Removed) |
+| **Close Tab** | `Ctrl + Q` | `Ctrl + W`, `Ctrl + F4` (Removed) |
+| **Proxy SwitchyOmega (ZeroOmega)** | `Alt + Shift + O` | Extension popup toggle |
+| **Launch Helium from Desktop/WM** | `Meta + H` | `Mod+H { spawn "/home/user/.local/bin/helium"; }` |
+| **MRU Tab Cycling** | `Ctrl + Tab` / `Ctrl + Shift + Tab` | Cycles tabs by Most Recently Used order |
+
+> **Note on Niri Compatibility:** Because `Ctrl + Q` is used inside Helium to close tabs, keeping `Mod + Q` (Super + Q) as your window-kill shortcut in Niri avoids any conflict between closing an individual browser tab (`Ctrl + Q`) vs killing the entire browser window (`Super + Q`).
+
